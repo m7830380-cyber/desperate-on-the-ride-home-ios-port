@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://detxuimfh3kfr"]
+
+[ext_resource type="Script" uid="uid://fanenj4x045f" path="res://scripts/component/CustomButton.gd" id="1"]
+
+[node name="CustomButton" type="TextureButton" unique_id=841958736]
+custom_minimum_size = Vector2(50, 50)
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("1")

@@ -1,0 +1,91 @@
+name: Build iOS (unsigned)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+env:
+  GODOT_VERSION: 4.6-stable
+  GODOT_VERSION_DIR: 4.6.stable
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download Godot editor
+        run: |
+          curl -L -o /tmp/godot.zip "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_macos.universal.zip"
+          unzip -q /tmp/godot.zip -d /tmp/godot_editor
+          xattr -cr /tmp/godot_editor/Godot.app || true
+          echo "GODOT_BIN=/tmp/godot_editor/Godot.app/Contents/MacOS/Godot" >> "$GITHUB_ENV"
+
+      - name: Install iOS export template
+        run: |
+          TEMPLATES_DIR="$HOME/Library/Application Support/Godot/export_templates/${GODOT_VERSION_DIR}"
+          mkdir -p "$TEMPLATES_DIR"
+          curl -L -o /tmp/templates.tpz "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_export_templates.tpz"
+          unzip -q /tmp/templates.tpz "templates/ios.zip" -d /tmp/templates_extracted
+          cp /tmp/templates_extracted/templates/ios.zip "$TEMPLATES_DIR/ios.zip"
+
+      - name: Verify Godot
+        run: |
+          "$GODOT_BIN" --version
+
+      - name: Import project resources
+        run: |
+          "$GODOT_BIN" --headless --import --quit || true
+
+      - name: Export Xcode project (unsigned, project files only)
+        run: |
+          mkdir -p build/ios
+          "$GODOT_BIN" --headless --export-release "iOS" build/ios/desperate-ride-home.ipa
+
+      - name: Archive unsigned .app with xcodebuild
+        working-directory: build/ios
+        run: |
+          PROJECT=$(find . -maxdepth 1 -name "*.xcodeproj" | head -1)
+          SCHEME=$(basename "$PROJECT" .xcodeproj)
+          echo "Using project=$PROJECT scheme=$SCHEME"
+          xcodebuild archive \
+            -project "$PROJECT" \
+            -scheme "$SCHEME" \
+            -configuration Release \
+            -archivePath desperate-ride-home.xcarchive \
+            -destination "generic/platform=iOS" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM=""
+
+      - name: Package unsigned IPA
+        working-directory: build/ios
+        run: |
+          APP_PATH=$(find desperate-ride-home.xcarchive/Products/Applications -name "*.app" -maxdepth 1 | head -1)
+          mkdir -p Payload
+          cp -R "$APP_PATH" Payload/
+          zip -r -q desperate-ride-home-unsigned.ipa Payload
+
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        continue-on-error: true
+        with:
+          name: desperate-ride-home-ios-unsigned
+          path: build/ios/desperate-ride-home-unsigned.ipa
+          retention-days: 7
+
+      - name: Publish IPA to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="ios-build-${{ github.run_number }}"
+          gh release create "$TAG" build/ios/desperate-ride-home-unsigned.ipa \
+            --title "Unsigned iOS build ${{ github.run_number }}" \
+            --notes "Auto-generated unsigned IPA from GitHub Actions (Godot 4.6)."

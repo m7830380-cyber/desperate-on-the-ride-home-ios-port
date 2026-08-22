@@ -1,0 +1,9 @@
+[gd_resource type="FontVariation" format=3 uid="uid://dxygdv6d47abf"]
+
+[ext_resource type="FontFile" uid="uid://rp4l733cjv5k" path="res://data/fonts/경기천년제목_Medium.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://7gdyqakvp1u8" path="res://data/fonts/SweiFistLegCJKsc-Regular-2.ttf" id="2"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="3"]
+
+[resource]
+fallbacks = [ExtResource("2"), ExtResource("3")]
+base_font = ExtResource("1")

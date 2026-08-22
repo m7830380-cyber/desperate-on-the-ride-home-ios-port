@@ -1,0 +1,170 @@
+[gd_scene format=3 uid="uid://bpaddkq21gaj4"]
+
+[ext_resource type="Script" uid="uid://dpxo2vms6ia06" path="res://scripts/screens/DebugPanel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://d2srm0wchh1fd" path="res://data/images/ui/bonus_rika_cutscene.webp" id="2"]
+[ext_resource type="PackedScene" uid="uid://detxuimfh3kfr" path="res://scenes/CustomButton.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://bjmtueuqo6lsv" path="res://data/images/ui/mm_btn_dimmer_small.webp" id="4"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="5"]
+
+[node name="DebugPanel" type="Control" unique_id=766314417]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=364623611]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=919592192]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -163.0
+offset_top = -169.0
+offset_right = 675.0
+offset_bottom = -322.885
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.5067246
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Endings" type="VBoxContainer" parent="." unique_id=749872737]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -282.0
+offset_bottom = 282.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="1" type="Label" parent="Endings" unique_id=1672007622]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 1"
+horizontal_alignment = 1
+
+[node name="2" type="Label" parent="Endings" unique_id=460146468]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 2"
+horizontal_alignment = 1
+
+[node name="3" type="Label" parent="Endings" unique_id=430608678]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 3"
+horizontal_alignment = 1
+
+[node name="4" type="Label" parent="Endings" unique_id=1014716614]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 4"
+horizontal_alignment = 1
+
+[node name="5" type="Label" parent="Endings" unique_id=1223349751]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 5"
+horizontal_alignment = 1
+
+[node name="6" type="Label" parent="Endings" unique_id=799797258]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 6"
+horizontal_alignment = 1
+
+[node name="7" type="Label" parent="Endings" unique_id=579553947]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 7"
+horizontal_alignment = 1
+
+[node name="8" type="Label" parent="Endings" unique_id=2080728329]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ENDING 8"
+horizontal_alignment = 1
+
+[node name="GameDebug" type="Label" parent="." unique_id=1306189348]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -198.5
+offset_top = 83.0
+offset_right = 198.5
+offset_bottom = 150.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 48
+text = "ACTIVATE CHEAT"
+horizontal_alignment = 1
+
+[node name="Back" parent="." unique_id=841958736 instance=ExtResource("3")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 162.0
+offset_top = 904.0
+offset_right = 378.0
+offset_bottom = 954.0
+texture_hover = ExtResource("4")
+stretch_mode = 0
+action_type = 3
+target_scene_path = "res://scenes/MainTree.tscn"
+transition_type = 1
+
+[node name="Label" type="Label" parent="Back" unique_id=175814210]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("5")
+theme_override_font_sizes/font_size = 40
+text = "BT_BACK"
+horizontal_alignment = 1
+vertical_alignment = 1

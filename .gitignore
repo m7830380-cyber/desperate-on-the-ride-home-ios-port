@@ -1,0 +1,25 @@
+# Godot 4 editor generated cache/import artifacts
+.godot/
+.import/
+export.cfg
+export_credentials.cfg
+
+# Exported builds
+/build/
+/dist/
+*.ipa
+*.xcarchive
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GDRE recovery log
+gdre_export.log
+
+# APK extraction leftovers
+project.binary
+assets.sparsepck
+icudt_godot.dat
+dexopt/
+_cl_/

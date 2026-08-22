@@ -1,0 +1,874 @@
+[gd_scene format=3 uid="uid://bpndkwrnf5wnf"]
+
+[ext_resource type="Script" uid="uid://bnwjp8jq3dq1y" path="res://scripts/screens/MiniGame.gd" id="1"]
+[ext_resource type="Resource" uid="uid://bifvf6mdnsa4p" path="res://data/se/bowel/gurgle3.tres" id="2"]
+[ext_resource type="Resource" uid="uid://q1wseunrh53m" path="res://data/se/bowel/gurgle4.tres" id="3"]
+[ext_resource type="AudioStream" uid="uid://cdhbxrv3t2cp4" path="res://data/se/bowel/gurgle5.ogg" id="4"]
+[ext_resource type="AudioStream" uid="uid://cj4vexlcomots" path="res://data/se/bowel/gurgle6.ogg" id="5"]
+[ext_resource type="Resource" uid="uid://csda28qxehllx" path="res://data/se/bowel/gurgle7.tres" id="6"]
+[ext_resource type="Resource" uid="uid://bgxjxswko1dil" path="res://data/se/bowel/gurgle8.tres" id="7"]
+[ext_resource type="Resource" uid="uid://demj34tc32h88" path="res://data/se/bowel/gurgle1.tres" id="8"]
+[ext_resource type="AudioStream" uid="uid://5sgo6dmg3cr" path="res://data/se/bowel/farturgent2.ogg" id="9"]
+[ext_resource type="AudioStream" uid="uid://itfovplo4ono" path="res://data/se/bowel/fart_succlick1.ogg" id="10"]
+[ext_resource type="AudioStream" uid="uid://c1w4gohpfs44c" path="res://data/se/bowel/fart_succlick4.ogg" id="11"]
+[ext_resource type="AudioStream" uid="uid://b6gitjn2mq37" path="res://data/se/bowel/fart_succlick5.ogg" id="12"]
+[ext_resource type="AudioStream" uid="uid://pscmk1txeyb" path="res://data/se/bowel/fart_succlick6.ogg" id="13"]
+[ext_resource type="Resource" uid="uid://cqpni7qt2d3xd" path="res://data/se/life/paper_tissue_tear.tres" id="14"]
+[ext_resource type="AudioStream" uid="uid://cb7h3ydwn6tgy" path="res://data/se/system/click_wrong.mp3" id="15"]
+[ext_resource type="Resource" uid="uid://reb6dcccgdx1" path="res://data/bgm/MiniGame.tres" id="16"]
+[ext_resource type="Texture2D" uid="uid://brc82evpibmf" path="res://data/images/cutscene_common/back_01_far_x2.webp" id="17"]
+[ext_resource type="Texture2D" uid="uid://huy16kv0g1cv" path="res://data/images/cutscene_common/back_02_meddium_x2.webp" id="18"]
+[ext_resource type="Texture2D" uid="uid://o1knmahg0fn0" path="res://data/images/cutscene_common/back_03_near_x2.webp" id="19"]
+[ext_resource type="Texture2D" uid="uid://cm1es7wbwinqy" path="res://data/images/cutscene_common/car_with_shadow_extended.webp" id="20"]
+[ext_resource type="Texture2D" uid="uid://cfee63vrqblc6" path="res://data/images/ui/gas_effect_1.webp" id="21"]
+[ext_resource type="Texture2D" uid="uid://coc1orxbl6qjw" path="res://data/images/ui/gas_effect_2.webp" id="22"]
+[ext_resource type="Texture2D" uid="uid://ci41g2auwby48" path="res://data/images/ui/gas_effect_3.webp" id="23"]
+[ext_resource type="Texture2D" uid="uid://dfw7lctthrcsm" path="res://data/images/ui/gas_effect_4.webp" id="24"]
+[ext_resource type="Texture2D" uid="uid://bidxg64iyi4tm" path="res://data/images/cutscene_common/chara_001.webp" id="25"]
+[ext_resource type="Texture2D" uid="uid://cdew7h1wb2so7" path="res://data/images/cutscene_common/car_with_shadow_extended_front_layer.webp" id="26"]
+[ext_resource type="Texture2D" uid="uid://hek4rs0yohw8" path="res://data/images/ui/breathe_1.webp" id="27"]
+[ext_resource type="Texture2D" uid="uid://dyox3tg8xxwsf" path="res://data/images/ui/breathe_2.webp" id="28"]
+[ext_resource type="Texture2D" uid="uid://xlgfgpajrdlp" path="res://data/images/ui/breathe_3.webp" id="29"]
+[ext_resource type="Texture2D" uid="uid://cf0fa2oqndam0" path="res://data/images/ui/breathe_4.webp" id="30"]
+[ext_resource type="Texture2D" uid="uid://bs86051xje37u" path="res://data/images/ui/gauge_alert_glow.webp" id="31"]
+[ext_resource type="Texture2D" uid="uid://qqwdkimsk87k" path="res://data/images/ui/gauge_bg.webp" id="32"]
+[ext_resource type="Texture2D" uid="uid://dap1k801rskid" path="res://data/images/ui/gauge_bd1.webp" id="33"]
+[ext_resource type="Texture2D" uid="uid://ck7sn72uoh8ts" path="res://data/images/ui/gauge_fill1.webp" id="34"]
+[ext_resource type="Texture2D" uid="uid://7ip5lsw78cgk" path="res://data/images/ui/timer_bg.webp" id="35"]
+[ext_resource type="Texture2D" uid="uid://ufp6hgbycdxq" path="res://data/images/ui/timer_fill.webp" id="36"]
+[ext_resource type="FontFile" uid="uid://b8bsfsbtuc063" path="res://data/fonts/07にくまるフォント2.otf" id="37"]
+[ext_resource type="Texture2D" uid="uid://cfhkyx3sfvnky" path="res://data/images/ui/timer_start_marker.webp" id="38"]
+[ext_resource type="Texture2D" uid="uid://cd6sdb7virdmw" path="res://data/images/ui/timer_indicator_marker.webp" id="39"]
+[ext_resource type="Texture2D" uid="uid://qnglfv4pts7k" path="res://data/images/ui/quiz_question_panel.webp" id="40"]
+[ext_resource type="FontFile" uid="uid://dgc4mhp7h76uv" path="res://data/fonts/Petanko-Regular2.otf" id="41"]
+[ext_resource type="Texture2D" uid="uid://cofp6gphr6qiu" path="res://data/images/ui/answer_btn1.webp" id="42"]
+[ext_resource type="Texture2D" uid="uid://dp7eg2vwpp1v2" path="res://data/images/ui/answer_btn2.webp" id="43"]
+[ext_resource type="Texture2D" uid="uid://bag5xbctxi1dh" path="res://data/images/ui/answer_btn3.webp" id="44"]
+[ext_resource type="Texture2D" uid="uid://b0oqfjw1o2oar" path="res://data/images/ui/answer_btn4.webp" id="45"]
+[ext_resource type="Texture2D" uid="uid://cvq5jo0jhvhxr" path="res://data/images/ui/dialogue_bubble_1_short.webp" id="46"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="47"]
+[ext_resource type="FontFile" uid="uid://61b5dmakyrk0" path="res://data/fonts/Petanko-Bold.otf" id="48"]
+[ext_resource type="Texture2D" uid="uid://dcc4yg5xb235f" path="res://data/images/ui/answer_box.webp" id="49"]
+[ext_resource type="Texture2D" uid="uid://dl00nvy3ggjby" path="res://data/images/ui/answer_box_hover.webp" id="50"]
+[ext_resource type="Texture2D" uid="uid://b0yxdc6vfm5ub" path="res://data/images/ui/dialogue_bubble_1.webp" id="51"]
+[ext_resource type="Texture2D" uid="uid://ci04m7d0ojgls" path="res://data/images/ui/game_pause.webp" id="52"]
+[ext_resource type="PackedScene" uid="uid://doscewa0hf3e2" path="res://scenes/MiniGamePausePanel.tscn" id="53"]
+[ext_resource type="Texture2D" uid="uid://biyyrjf4dwe0j" path="res://data/images/ui/game_resume.webp" id="54"]
+
+[sub_resource type="FontVariation" id="FontVariation_7c52t"]
+base_font = ExtResource("47")
+opentype_features = {
+1818847073: 0
+}
+
+[sub_resource type="FontVariation" id="FontVariation_6iria"]
+base_font = ExtResource("48")
+opentype_features = {
+1818847073: 0
+}
+
+[sub_resource type="FontVariation" id="FontVariation_am72o"]
+base_font = ExtResource("47")
+opentype_features = {
+1818847073: 0
+}
+
+[sub_resource type="FontVariation" id="FontVariation_80q36"]
+base_font = ExtResource("47")
+opentype_features = {
+1818847073: 0
+}
+
+[node name="MiniGame" type="Control" unique_id=2086586945]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+sfx_chara_state_list = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")]
+sfx_gas_emission_list = [ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13")]
+sfx_gas_emission_interval_medium_gauge = 5.0
+sfx_gas_emission_interval_high_gauge = 2.5
+sfx_quiz_correct = ExtResource("14")
+sfx_quiz_wrong = ExtResource("15")
+bgm = ExtResource("16")
+
+[node name="Images" type="Control" parent="." unique_id=1653692799]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BgFar" type="TextureRect" parent="Images" unique_id=1598091472]
+texture_filter = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 540.0
+offset_bottom = -545.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("17")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BgMed" type="TextureRect" parent="Images" unique_id=1993869177]
+texture_filter = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 176.0
+offset_right = 540.0
+offset_bottom = -547.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("18")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BgNear" type="TextureRect" parent="Images" unique_id=504242546]
+texture_filter = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 266.3
+offset_right = 540.0
+offset_bottom = -546.7
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("19")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Car" type="TextureRect" parent="Images" unique_id=1855294651]
+texture_filter = 2
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("20")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="GasEffects" type="Control" parent="Images" unique_id=274437831]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Effect1" type="TextureRect" parent="Images/GasEffects" unique_id=1856878082]
+visible = false
+layout_mode = 0
+offset_left = -100.0
+offset_top = 329.0
+offset_right = 300.0
+offset_bottom = 887.5
+texture = ExtResource("21")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect2" type="TextureRect" parent="Images/GasEffects" unique_id=680207005]
+visible = false
+layout_mode = 0
+offset_left = -85.0
+offset_top = 349.0
+offset_right = 518.5
+offset_bottom = 920.0
+texture = ExtResource("22")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect3" type="TextureRect" parent="Images/GasEffects" unique_id=789201962]
+visible = false
+layout_mode = 0
+offset_left = -173.0
+offset_top = 89.0
+offset_right = 540.5
+offset_bottom = 931.0
+texture = ExtResource("23")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect4" type="TextureRect" parent="Images/GasEffects" unique_id=2134311821]
+visible = false
+layout_mode = 0
+offset_left = -174.0
+offset_top = 247.0
+offset_right = 437.0
+offset_bottom = 960.0
+texture = ExtResource("24")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="EmitOrigin" type="Marker2D" parent="Images" unique_id=730013356]
+position = Vector2(152, 722)
+
+[node name="Char" type="TextureRect" parent="Images" unique_id=1300506349]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("25")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CarFront" type="TextureRect" parent="Images/Char" unique_id=635819082]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 743.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("26")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BreatheEffects" type="Control" parent="Images" unique_id=1938527981]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Effect1" type="TextureRect" parent="Images/BreatheEffects" unique_id=2084807683]
+visible = false
+layout_mode = 0
+offset_left = 174.0
+offset_top = 199.0
+offset_right = 472.5
+offset_bottom = 435.5
+texture = ExtResource("27")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect2" type="TextureRect" parent="Images/BreatheEffects" unique_id=1123246616]
+visible = false
+layout_mode = 0
+offset_left = 134.0
+offset_top = 154.0
+offset_right = 459.5
+offset_bottom = 443.0
+texture = ExtResource("28")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect3" type="TextureRect" parent="Images/BreatheEffects" unique_id=120738872]
+visible = false
+layout_mode = 0
+offset_left = 241.0
+offset_top = 297.0
+offset_right = 439.0
+offset_bottom = 448.0
+texture = ExtResource("29")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect4" type="TextureRect" parent="Images/BreatheEffects" unique_id=1349951088]
+visible = false
+layout_mode = 0
+offset_left = 216.0
+offset_top = 293.0
+offset_right = 432.5
+offset_bottom = 410.5
+texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="GameHUD" type="Control" parent="." unique_id=1200821981]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ResultIndicator" type="Label" parent="GameHUD" unique_id=1830654089]
+visible = false
+layout_mode = 0
+offset_left = 363.0
+offset_top = -260.0
+offset_right = 441.0
+offset_bottom = -232.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Correct!"
+horizontal_alignment = 1
+
+[node name="GaugeAlert" type="TextureRect" parent="GameHUD" unique_id=947698840]
+layout_mode = 0
+offset_left = 424.0
+offset_top = -995.0
+offset_right = 574.0
+offset_bottom = -423.0
+texture = ExtResource("31")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Gauge" type="TextureProgressBar" parent="GameHUD" unique_id=1967016588]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -82.0
+offset_top = -960.0
+offset_bottom = -460.0
+grow_horizontal = 0
+grow_vertical = 0
+max_value = 1000.0
+value = 500.0
+fill_mode = 3
+nine_patch_stretch = true
+texture_under = ExtResource("32")
+texture_over = ExtResource("33")
+texture_progress = ExtResource("34")
+
+[node name="Timer" type="TextureProgressBar" parent="GameHUD" unique_id=1203671483]
+layout_mode = 1
+offset_left = 215.0
+offset_top = -960.0
+offset_right = 325.0
+offset_bottom = -850.0
+max_value = 60.0
+step = 0.1
+value = 60.0
+fill_mode = 5
+nine_patch_stretch = true
+texture_under = ExtResource("35")
+texture_progress = ExtResource("36")
+
+[node name="Label" type="Label" parent="GameHUD/Timer" unique_id=108943425]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 0
+offset_left = 20.0
+offset_top = 31.0
+offset_right = 91.0
+offset_bottom = 81.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("37")
+theme_override_font_sizes/font_size = 49
+text = "60"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartMarker" type="TextureRect" parent="GameHUD/Timer" unique_id=569828798]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 49.0
+offset_right = -49.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("38")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Indicator" type="TextureRect" parent="GameHUD/Timer" unique_id=257667645]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 44.0
+offset_right = -44.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("39")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="QuizQuestionPanel" type="TextureRect" parent="GameHUD" unique_id=1832478701]
+layout_mode = 0
+offset_left = 118.0
+offset_top = -309.0
+offset_right = 461.0
+offset_bottom = -150.0
+texture = ExtResource("40")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="GameHUD/QuizQuestionPanel" unique_id=1004073923]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 83.0
+offset_right = 308.0
+offset_bottom = 144.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 60
+text = "2+2+2=?"
+horizontal_alignment = 1
+
+[node name="Answer1" type="TextureButton" parent="GameHUD" unique_id=1849701757]
+custom_minimum_size = Vector2(83, 83)
+layout_mode = 0
+offset_left = 12.0
+offset_top = -133.0
+offset_right = 124.5
+offset_bottom = 32.0
+size_flags_horizontal = 3
+texture_normal = ExtResource("42")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Keymap" type="Label" parent="GameHUD/Answer1" unique_id=1591733303]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 19.5
+offset_top = 18.0
+offset_right = -9.5
+offset_bottom = -110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5931336, 0.59313357, 0.59313357, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 32
+text = "Q"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="GameHUD/Answer1" unique_id=1295160161]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 14.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 70
+text = "32"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Answer2" type="TextureButton" parent="GameHUD" unique_id=1597239983]
+layout_mode = 0
+offset_left = 147.0
+offset_top = -133.0
+offset_right = 259.5
+offset_bottom = 32.0
+size_flags_horizontal = 3
+texture_normal = ExtResource("43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Keymap" type="Label" parent="GameHUD/Answer2" unique_id=689970077]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 19.5
+offset_top = 18.0
+offset_right = -9.5
+offset_bottom = -110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5931336, 0.59313357, 0.59313357, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 32
+text = "W"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="GameHUD/Answer2" unique_id=1546016007]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 14.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 70
+text = "32"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Answer3" type="TextureButton" parent="GameHUD" unique_id=1586037969]
+layout_mode = 0
+offset_left = 282.0
+offset_top = -133.0
+offset_right = 394.5
+offset_bottom = 32.0
+size_flags_horizontal = 3
+texture_normal = ExtResource("44")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Keymap" type="Label" parent="GameHUD/Answer3" unique_id=1172072845]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 19.5
+offset_top = 18.0
+offset_right = -9.5
+offset_bottom = -110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5931336, 0.59313357, 0.59313357, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 32
+text = "E"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="GameHUD/Answer3" unique_id=962648259]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 14.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 70
+text = "32"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Answer4" type="TextureButton" parent="GameHUD" unique_id=423274805]
+layout_mode = 0
+offset_left = 417.0
+offset_top = -133.0
+offset_right = 529.5
+offset_bottom = 32.0
+size_flags_horizontal = 3
+texture_normal = ExtResource("45")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Keymap" type="Label" parent="GameHUD/Answer4" unique_id=1328980167]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 19.5
+offset_top = 18.0
+offset_right = -9.5
+offset_bottom = -110.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.5931336, 0.59313357, 0.59313357, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 32
+text = "R"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="GameHUD/Answer4" unique_id=1409230573]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 14.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 70
+text = "32"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AskContainer" type="Control" parent="GameHUD" unique_id=1525567469]
+visible = false
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AskDialogueBox" type="TextureRect" parent="GameHUD/AskContainer" unique_id=171245838]
+layout_mode = 0
+offset_left = 14.0
+offset_top = -276.0
+offset_right = 526.0
+offset_bottom = -68.0
+texture = ExtResource("46")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="RichTextLabel" parent="GameHUD/AskContainer/AskDialogueBox" unique_id=1391251797]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 83.0
+offset_right = -16.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_constants/line_separation = 6
+theme_override_fonts/normal_font = SubResource("FontVariation_7c52t")
+theme_override_fonts/bold_font = SubResource("FontVariation_6iria")
+theme_override_font_sizes/normal_font_size = 36
+theme_override_font_sizes/bold_font_size = 36
+bbcode_enabled = true
+scroll_active = false
+vertical_alignment = 1
+
+[node name="HBox" type="HBoxContainer" parent="GameHUD/AskContainer" unique_id=1433740017]
+custom_minimum_size = Vector2(0, 66)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -66.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Yes" type="TextureButton" parent="GameHUD/AskContainer/HBox" unique_id=1497449602]
+custom_minimum_size = Vector2(267, 66)
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("49")
+texture_hover = ExtResource("50")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Keymap" type="Label" parent="GameHUD/AskContainer/HBox/Yes" unique_id=1749188183]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 17.0
+offset_top = -19.5
+offset_right = -17.0
+offset_bottom = 13.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.31431624, 0.31431606, 0.3143161, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 32
+text = "Q"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="GameHUD/AskContainer/HBox/Yes" unique_id=346006783]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 14.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_am72o")
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="No" type="TextureButton" parent="GameHUD/AskContainer/HBox" unique_id=422961060]
+custom_minimum_size = Vector2(267, 66)
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("49")
+texture_hover = ExtResource("50")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Keymap" type="Label" parent="GameHUD/AskContainer/HBox/No" unique_id=1895392497]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 17.0
+offset_top = -19.5
+offset_right = -17.0
+offset_bottom = 13.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.31431624, 0.31431606, 0.3143161, 1)
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 32
+text = "R"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="GameHUD/AskContainer/HBox/No" unique_id=1188754105]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 14.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_80q36")
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="EndingDiagloaugeBox" type="TextureRect" parent="GameHUD" unique_id=2005830882]
+visible = false
+layout_mode = 1
+offset_left = 14.0
+offset_top = -222.0
+offset_right = 526.0
+offset_bottom = -14.0
+texture = ExtResource("51")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="RichTextLabel" parent="GameHUD/EndingDiagloaugeBox" unique_id=275117869]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 43.0
+offset_right = -16.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_constants/line_separation = 6
+theme_override_fonts/normal_font = SubResource("FontVariation_7c52t")
+theme_override_fonts/bold_font = SubResource("FontVariation_6iria")
+theme_override_font_sizes/normal_font_size = 36
+theme_override_font_sizes/bold_font_size = 36
+bbcode_enabled = true
+scroll_active = false
+vertical_alignment = 1
+
+[node name="PauseButton" type="TextureButton" parent="GameHUD" unique_id=1171166411]
+modulate = Color(1, 1, 1, 0.7058824)
+layout_mode = 1
+offset_top = -960.0
+offset_right = 75.0
+offset_bottom = -885.0
+texture_normal = ExtResource("52")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="DebugPanel" type="Control" parent="GameHUD" unique_id=886745259]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TimerController" type="HBoxContainer" parent="GameHUD/DebugPanel" unique_id=1382812059]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 0
+offset_left = -106.0
+offset_top = -849.0
+offset_right = 106.0
+offset_bottom = -799.0
+alignment = 1
+
+[node name="Timer0" type="Button" parent="GameHUD/DebugPanel/TimerController" unique_id=869104409]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "0"
+
+[node name="Timer10" type="Button" parent="GameHUD/DebugPanel/TimerController" unique_id=784327401]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "10"
+
+[node name="Timer25" type="Button" parent="GameHUD/DebugPanel/TimerController" unique_id=864362515]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "25"
+
+[node name="Timer45" type="Button" parent="GameHUD/DebugPanel/TimerController" unique_id=1420272610]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "45"
+
+[node name="GaugeController" type="VBoxContainer" parent="GameHUD/DebugPanel" unique_id=959529820]
+layout_mode = 0
+offset_left = 206.0
+offset_top = -453.0
+offset_right = 256.0
+offset_bottom = -241.0
+
+[node name="Lv1" type="Button" parent="GameHUD/DebugPanel/GaugeController" unique_id=1401540262]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "0%"
+
+[node name="Lv2" type="Button" parent="GameHUD/DebugPanel/GaugeController" unique_id=1158987446]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "33%"
+
+[node name="Lv3" type="Button" parent="GameHUD/DebugPanel/GaugeController" unique_id=190942240]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "66%"
+
+[node name="Max" type="Button" parent="GameHUD/DebugPanel/GaugeController" unique_id=673088393]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "MAX"
+
+[node name="IgnoreAnswer" type="Button" parent="GameHUD/DebugPanel" unique_id=1865706083]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 0
+offset_left = -259.0
+offset_top = -785.0
+offset_right = -112.0
+offset_bottom = -735.0
+theme_override_font_sizes/font_size = 18
+text = "Ignore selection"
+
+[node name="MiniGamePausePanel" parent="GameHUD" unique_id=1707033644 instance=ExtResource("53")]
+visible = false
+layout_mode = 1
+offset_top = -960.0
+
+[node name="ResumeButton" type="TextureButton" parent="GameHUD/MiniGamePausePanel" unique_id=1839411503]
+modulate = Color(1, 1, 1, 0.7058824)
+layout_mode = 1
+offset_right = 75.0
+offset_bottom = 75.0
+texture_normal = ExtResource("54")
+ignore_texture_size = true
+stretch_mode = 5

@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://jjeaxwkoh7sx"]
+
+[ext_resource type="Script" uid="uid://dlaag2eyytxj0" path="res://scripts/screens/CutsceneCaptureMaker.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://bsod6tb53q88m" path="res://scenes/DialogueManager.tscn" id="2"]
+
+[node name="CutsceneCaptureMaker" type="Node" unique_id=234049451]
+script = ExtResource("1")
+capture_japanese = false
+capture_english = false
+capture_korean = false
+capture_chinese = false
+jpeg_quality = 1.0
+
+[node name="Background" type="ColorRect" parent="." unique_id=905080438]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CutContainer" type="Control" parent="." unique_id=1257217889]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="DialogueManager" parent="." unique_id=1092409662 instance=ExtResource("2")]

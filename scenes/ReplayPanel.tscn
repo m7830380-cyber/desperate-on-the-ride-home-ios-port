@@ -1,0 +1,126 @@
+[gd_scene format=3 uid="uid://b30l8q1flka18"]
+
+[ext_resource type="Script" uid="uid://b4qonptsxna62" path="res://scripts/screens/ReplayPanel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bu2yo88tbn1m5" path="res://data/images/ui/replay_panel_shadow.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://detxuimfh3kfr" path="res://scenes/CustomButton.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://cs36iwn8332iy" path="res://data/images/ui/thumbnail_lock.webp" id="4"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="5"]
+
+[sub_resource type="FontVariation" id="FontVariation_258ky"]
+base_font = ExtResource("5")
+opentype_features = {
+1818847073: 0
+}
+
+[node name="ReplayPanel" type="Control" unique_id=2030857560]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Shadow" type="TextureRect" parent="." unique_id=1538313815]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HBox1" type="HBoxContainer" parent="." unique_id=1699254221]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 528.0
+offset_bottom = 202.0
+theme_override_constants/separation = 12
+
+[node name="Ending1" parent="HBox1" unique_id=841958736 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="Ending2" parent="HBox1" unique_id=1158436751 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="HBox2" type="HBoxContainer" parent="." unique_id=817584217]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 214.0
+offset_right = 528.0
+offset_bottom = 404.0
+theme_override_constants/separation = 12
+
+[node name="Ending3" parent="HBox2" unique_id=55205576 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="Ending4" parent="HBox2" unique_id=934255796 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="HBox3" type="HBoxContainer" parent="." unique_id=561366955]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 416.0
+offset_right = 528.0
+offset_bottom = 606.0
+theme_override_constants/separation = 12
+
+[node name="Ending5" parent="HBox3" unique_id=242090672 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="Ending6" parent="HBox3" unique_id=1979040664 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="HBox4" type="HBoxContainer" parent="." unique_id=214837644]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 618.0
+offset_right = 528.0
+offset_bottom = 808.0
+theme_override_constants/separation = 12
+
+[node name="Ending7" parent="HBox4" unique_id=1243883899 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="Ending8" parent="HBox4" unique_id=1838010946 instance=ExtResource("3")]
+layout_mode = 2
+size_flags_horizontal = 3
+texture_normal = ExtResource("4")
+
+[node name="DescriptionLabel" type="Label" parent="." unique_id=2074439090]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -258.0
+offset_top = -141.0
+offset_right = 258.0
+offset_bottom = -28.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_258ky")
+theme_override_font_sizes/font_size = 32
+text = "description
+description"
+autowrap_mode = 3

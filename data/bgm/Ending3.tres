@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoundData" format=3 uid="uid://ie4b5lp7p0ur"]
+
+[ext_resource type="Script" uid="uid://cdq144v0xyfo" path="res://scripts/autoload/SoundData.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://ccvd6idw8rorh" path="res://data/bgm/雨の町子さん.mp3" id="2"]
+
+[resource]
+script = ExtResource("1")
+stream = ExtResource("2")
+base_volume_db = -24.0
+metadata/_custom_type_script = "uid://cdq144v0xyfo"

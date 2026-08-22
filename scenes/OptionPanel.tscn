@@ -1,0 +1,468 @@
+[gd_scene format=3 uid="uid://brr4xxk3bq2ok"]
+
+[ext_resource type="Script" uid="uid://4nix22djv424" path="res://scripts/screens/OptionPanel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dk1dety50ibyb" path="res://data/images/ui/option_panel_dimmer.webp" id="2"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="3"]
+[ext_resource type="Texture2D" uid="uid://l3swsx2wuhrr" path="res://data/images/ui/option_ja.webp" id="4"]
+[ext_resource type="Texture2D" uid="uid://demrq0s1ntm4m" path="res://data/images/ui/option_en.webp" id="5"]
+[ext_resource type="Texture2D" uid="uid://c66csaidrmm3" path="res://data/images/ui/option_zh.webp" id="6"]
+[ext_resource type="Texture2D" uid="uid://db0b0jhi2jq4l" path="res://data/images/ui/option_ko.webp" id="7"]
+[ext_resource type="FontFile" uid="uid://61b5dmakyrk0" path="res://data/fonts/Petanko-Bold.otf" id="8"]
+[ext_resource type="Texture2D" uid="uid://bac4x5wwgjak" path="res://data/images/ui/option_arrow.webp" id="9"]
+[ext_resource type="PackedScene" uid="uid://detxuimfh3kfr" path="res://scenes/CustomButton.tscn" id="10"]
+[ext_resource type="Texture2D" uid="uid://bjmtueuqo6lsv" path="res://data/images/ui/mm_btn_dimmer_small.webp" id="11"]
+[ext_resource type="FontVariation" uid="uid://dxygdv6d47abf" path="res://data/fonts/license.tres" id="12"]
+
+[sub_resource type="FontVariation" id="FontVariation_jao7c"]
+base_font = ExtResource("3")
+opentype_features = {
+1818847073: 0
+}
+
+[sub_resource type="FontVariation" id="FontVariation_ms7os"]
+base_font = ExtResource("8")
+opentype_features = {
+1818847073: 0
+}
+
+[node name="OptionPanel" type="Control" unique_id=577671564 node_paths=PackedStringArray("license_text_label")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+license_text_label = NodePath("LicenseText")
+
+[node name="Background" type="TextureRect" parent="." unique_id=578538610]
+modulate = Color(1, 1, 1, 0.8784314)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ChineseNote" type="Label" parent="." unique_id=325635812]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -230.0
+offset_top = -796.0
+offset_right = 230.0
+offset_bottom = -714.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 24
+text = "WARN_CHINESE_TRANS"
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="OptionList" type="VBoxContainer" parent="." unique_id=419447009]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = -250.0
+offset_right = -40.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 14
+alignment = 1
+
+[node name="Space" type="Control" parent="OptionList" unique_id=299519099]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Language" type="HBoxContainer" parent="OptionList" unique_id=751508201]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="ja" type="TextureButton" parent="OptionList/Language" unique_id=1657785216]
+custom_minimum_size = Vector2(107, 0)
+layout_mode = 2
+texture_normal = ExtResource("4")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Space" type="Control" parent="OptionList/Language" unique_id=1176373081]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="en" type="TextureButton" parent="OptionList/Language" unique_id=1556796955]
+custom_minimum_size = Vector2(107, 0)
+layout_mode = 2
+texture_normal = ExtResource("5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Space2" type="Control" parent="OptionList/Language" unique_id=1146927183]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="zh" type="TextureButton" parent="OptionList/Language" unique_id=260964313]
+custom_minimum_size = Vector2(107, 0)
+layout_mode = 2
+texture_normal = ExtResource("6")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Space3" type="Control" parent="OptionList/Language" unique_id=917166221]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ko" type="TextureButton" parent="OptionList/Language" unique_id=1306516012]
+custom_minimum_size = Vector2(107, 0)
+layout_mode = 2
+texture_normal = ExtResource("7")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Fullscreen" type="HBoxContainer" parent="OptionList" unique_id=777760735]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="OptionName" type="Label" parent="OptionList/Fullscreen" unique_id=2086457771]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ms7os")
+theme_override_font_sizes/font_size = 40
+text = "OPTION"
+vertical_alignment = 1
+
+[node name="LeftButton" type="TextureButton" parent="OptionList/Fullscreen" unique_id=101980218]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="OptionValue" type="Label" parent="OptionList/Fullscreen" unique_id=716391912]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 40
+text = "VALUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightButton" type="TextureButton" parent="OptionList/Fullscreen" unique_id=1613135942]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="BGM" type="HBoxContainer" parent="OptionList" unique_id=231252412]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="OptionName" type="Label" parent="OptionList/BGM" unique_id=580107006]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ms7os")
+theme_override_font_sizes/font_size = 40
+text = "OPTION"
+vertical_alignment = 1
+
+[node name="LeftButton" type="TextureButton" parent="OptionList/BGM" unique_id=896671334]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="OptionValue" type="Label" parent="OptionList/BGM" unique_id=329303503]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 40
+text = "VALUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightButton" type="TextureButton" parent="OptionList/BGM" unique_id=1088437]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="SE" type="HBoxContainer" parent="OptionList" unique_id=1307330422]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="OptionName" type="Label" parent="OptionList/SE" unique_id=146677691]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ms7os")
+theme_override_font_sizes/font_size = 40
+text = "OPTION"
+vertical_alignment = 1
+
+[node name="LeftButton" type="TextureButton" parent="OptionList/SE" unique_id=697342018]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="OptionValue" type="Label" parent="OptionList/SE" unique_id=84775767]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 40
+text = "VALUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightButton" type="TextureButton" parent="OptionList/SE" unique_id=1299663947]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="Dialogue" type="HBoxContainer" parent="OptionList" unique_id=137995830]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="OptionName" type="Label" parent="OptionList/Dialogue" unique_id=2029468378]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ms7os")
+theme_override_font_sizes/font_size = 40
+text = "OPTION"
+vertical_alignment = 1
+
+[node name="LeftButton" type="TextureButton" parent="OptionList/Dialogue" unique_id=686510517]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="OptionValue" type="Label" parent="OptionList/Dialogue" unique_id=224135220]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 40
+text = "VALUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightButton" type="TextureButton" parent="OptionList/Dialogue" unique_id=2057533993]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="Censorship" type="HBoxContainer" parent="OptionList" unique_id=113288458]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="OptionName" type="Label" parent="OptionList/Censorship" unique_id=974848213]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ms7os")
+theme_override_font_sizes/font_size = 40
+text = "OPTION"
+vertical_alignment = 1
+
+[node name="LeftButton" type="TextureButton" parent="OptionList/Censorship" unique_id=1474485598]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="OptionValue" type="Label" parent="OptionList/Censorship" unique_id=1110388849]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 40
+text = "VALUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightButton" type="TextureButton" parent="OptionList/Censorship" unique_id=337636258]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="Difficulty" type="HBoxContainer" parent="OptionList" unique_id=1426577835]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+
+[node name="OptionName" type="Label" parent="OptionList/Difficulty" unique_id=381902828]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_ms7os")
+theme_override_font_sizes/font_size = 40
+text = "OPTION"
+vertical_alignment = 1
+
+[node name="LeftButton" type="TextureButton" parent="OptionList/Difficulty" unique_id=1958936615]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="OptionValue" type="Label" parent="OptionList/Difficulty" unique_id=277653368]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 40
+text = "VALUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RightButton" type="TextureButton" parent="OptionList/Difficulty" unique_id=1787724249]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+texture_normal = ExtResource("9")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true
+
+[node name="Space2" type="Control" parent="OptionList" unique_id=724202854]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OptionValue" type="Label" parent="." unique_id=1494120577]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -230.0
+offset_top = -243.0
+offset_right = 230.0
+offset_bottom = -161.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_jao7c")
+theme_override_font_sizes/font_size = 24
+text = "OPTION_DIFFICULTY_NOTE"
+autowrap_mode = 3
+
+[node name="License" parent="." unique_id=841958736 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("10")]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 0
+anchors_preset = 0
+offset_left = 15.0
+offset_top = 911.0
+offset_right = 160.0
+offset_bottom = 947.0
+texture_hover = ExtResource("11")
+stretch_mode = 0
+flip_h = true
+action_type = 2
+nodes_to_show = [NodePath("../LicenseText"), NodePath("../Close")]
+nodes_to_hide = [NodePath("../ChineseNote"), NodePath("../OptionList"), NodePath("../OptionValue"), NodePath(".")]
+
+[node name="Label" type="Label" parent="License" unique_id=1580495795]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.5
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "License"
+vertical_alignment = 1
+
+[node name="LicenseText" type="RichTextLabel" parent="." unique_id=943440741]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 15.0
+offset_top = 205.0
+offset_right = -15.0
+offset_bottom = -205.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("12")
+theme_override_font_sizes/normal_font_size = 10
+
+[node name="Close" parent="." unique_id=447157649 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("10")]
+visible = false
+layout_mode = 0
+anchors_preset = 0
+offset_left = 7.0
+offset_top = 904.0
+offset_right = 152.0
+offset_bottom = 954.0
+texture_hover = ExtResource("11")
+stretch_mode = 0
+flip_h = true
+action_type = 2
+nodes_to_show = [NodePath("../ChineseNote"), NodePath("../OptionList"), NodePath("../OptionValue"), NodePath("../License")]
+nodes_to_hide = [NodePath("../LicenseText"), NodePath(".")]
+
+[node name="Label" type="Label" parent="Close" unique_id=195248933]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.5
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = -5
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "Close
+License"
+vertical_alignment = 1

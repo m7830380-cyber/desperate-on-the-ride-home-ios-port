@@ -1,0 +1,150 @@
+﻿key,ja,en,ko,zh
+GAME_TITLE,車の中でうん〇我慢する話,Desperate on the Ride Home,차에서 응가 참는 이야기,回家路上的憋便危机
+MM_START,プレイ,PLAY,플레이,开始游戏
+MM_REPLAY,回想,REPLAY,회상하기,回想
+MM_SETTING,設定,SETTINGS,설정,设置
+MM_CREDITS,クレジット,CREDITS,크레딧,制作人员
+MM_QUIT,終了,QUIT,종료,退出游戏
+MM_BONUS,特典,BONUS,특전,特典
+BT_BACK,もどる,BACK,돌아가기,返回
+ASK_INTRO,イントロを再生しますか？,Play intro?,인트로를 재생할까요?,要播放序章吗？
+ANSWER_YES,はい,Yes,네,是
+ANSWER_NO,いいえ,No,아니오,否
+ENDING_DESC_1,"～エンディング１～
+家のトイレで無事うんち","～ Ending 1 ～
+Pooped in the Toilet at Home","~ 엔딩1 ~
+집에서 무사히 응가하기","～结局1～
+顺利在家里的厕所便便"
+ENDING_DESC_2,"～エンディング２～
+トイレ前でお漏らし","～ Ending 2 ～
+Pooped Her Panties in front of the Bathroom","~ 엔딩2 ~
+화장실 앞에서 지리기","～结局2～
+在厕所门前失禁"
+ENDING_DESC_3,"～エンディング３～
+公衆トイレで無事うんち","～ Ending 3 ～
+Pooped in a Public Restroom","~ 엔딩3 ~
+공중 화장실에서 무사히 응가하기","～结局3～
+顺利在公共厕所便便"
+ENDING_DESC_4,"～エンディング４～
+用具入れのバケツにうんち","～ Ending 4 ～
+Pooped in a Bucket in the Janitor’s Closet","~ 엔딩4 ~
+청소 도구함에서 응가하기","～结局4～
+在清洁工具柜里的水桶里便便"
+ENDING_DESC_5,"～エンディング５～
+公衆トイレに行く途中野グソ","～ Ending 5 ～
+Pooped Outside on the Way to a Public Restroom","~ 엔딩5 ~
+공중 화장실 가는 길에 응가하기","～结局5～
+去公共厕所途中在野外便便"
+ENDING_DESC_6,"～エンディング６～
+車の陰で野グソ","～ Ending 6 ～
+Pooped Behind a Car","~ 엔딩6 ~
+차 뒤에 숨어서 응가하기","～结局6～
+躲在车后便便"
+ENDING_DESC_7,"～エンディング７～
+後部座席で袋にうんち","～ Ending 7 ～
+Pooped in a Plastic Bag in the Back Seat","~ 엔딩7 ~
+뒷자리에서 봉지에 응가하기","～结局7～
+在后座的塑料袋里便便"
+ENDING_DESC_8,"～エンディング８～
+助手席でお漏らし","～ Ending 8 ～
+Pooped Her Panties in the Passenger Seat","~ 엔딩8 ~
+조수석에서 응가 지리기","～结局8～
+在副驾驶座上失禁"
+ENDING_TRIAL,ぜひ製品版で！,See you in the full version!,완전판에서 만나요!,完整版见！
+ENDING_HINT_1,便意2段階以下で家に到着,Get home with urgency level 1 or 2,변의 2단계 이하에서 집에 도착하기,便意不超过第2阶段时到家
+ENDING_HINT_2,便意3段階で家に到着,Get home with urgency level 3,변의 3단계에서 집에 도착하기,便意处于第3阶段时到家
+ENDING_HINT_3,便意1段階で公衆トイレへ向かう,Head to a public restroom at urgency level 1,변의 1단계에서 공중 화장실 가기,在便意第1阶段时前往公共厕所
+ENDING_HINT_4,便意2段階で公衆トイレへ向かう,Head to a public restroom at urgency level 2,변의 2단계에서 공중 화장실 가기,在便意第2阶段时前往公共厕所
+ENDING_HINT_5,便意3段階で公衆トイレへ向かう,Head to a public restroom at urgency level 3,변의 3단계에서 공중 화장실 가기,在便意第3阶段时前往公共厕所
+ENDING_HINT_6,家までまだ遠いのに限界に達してしまう,Hit the limit far from home,집까지 한참 남았을 때 한계 도달,离家还很远时便意达到极限
+ENDING_HINT_7,公衆トイレに行けるのに限界に達してしまう,Hit the limit near a public restroom,공중 화장실 갈 수 있을 때 한계 도달,明明能去公共厕所，却还是达到极限
+ENDING_HINT_8,公衆トイレ通り過ぎた後限界に達してしまう,Hit the limit after passing a public restroom,공중 화장실을 지나치고서 한계 도달,路过公共厕所后达到极限
+ENDING_HINT_INST_PC,解禁ヒントを見るには、カーソルを合わせてください。,Hover to view the unlock hint.,해금 힌트를 보려면 커서를 올리세요,将鼠标悬停以查看解锁提示。
+ENDING_HINT_INST_AND,解禁ヒントを見るには、タップしてください。,Tap to view the unlock hint.,해금 힌트를 보려면 터치하세요,轻触以查看解锁提示。
+ENDING_UNLOCKED,解放されました！,Unlocked!,해금되었습니다!,已解锁！
+OPTION_FULLSCREEN,フルスクリーン,Fullscreen,전체화면,全屏
+OPTION_ON,はい,On,On,开启
+OPTION_OFF,いいえ,Off,Off,关闭
+OPTION_BGM,BGM,Music,배경음,背景音乐
+OPTION_SE,SE,SFX,효과음,音效
+OPTION_DIFFICULTY,難易度,Difficulty,난이도,难度
+OPTION_DIFFICULTY_NOTE,※どの難易度を選んでも、すべてのエンディングを解放できます。,※All endings can be unlocked regardless of the difficulty selected.,※어떤 난이도를 골라도 모든 엔딩을 해금할 수 있습니다.,※无论选择哪种难度，都可以解锁所有结局。
+WARN_CHINESE_TRANS,ㅤ,ㅤ,ㅤ,※全部文本均由AI翻译，未经校对，可能存在少量误译。
+OPTION_DIFFICULTY_VERYEASY,らくらく,Very Easy,매우 쉬움,轻松
+OPTION_DIFFICULTY_EASY,かんたん,Easy,쉬움,简单
+OPTION_DIFFICULTY_NORMAL,ふつう,Normal,보통,普通
+OPTION_DIFFICULTY_HARD,むずかしい,Hard,어려움,困难
+OPTION_DIAG,セリフ送り,Dialogue,대사 넘기기,文本推进方式
+OPTION_DIAG_CLICK,クリック,Click,클릭,点击
+OPTION_DIAG_TOUCH,タッチ,Touch,터치,触摸
+OPTION_DIAG_AUTO_SLOW,自動 (遅い),Auto (Slow),자동 (느림),自动（慢）
+OPTION_DIAG_AUTO_FAST,自動 (速い),Auto (Fast),자동 (빠름),自动（快）
+OPTION_LANG,言語,Language,언어,语言
+OPTION_CENSOR,修正方法,Censorship,검열 표현,遮挡方式
+OPTION_CENSOR_WHITE_LINE,白線,White lines,흰 선,白线
+OPTION_CENSOR_MOSAIC,モザイク,Mosaic,모자이크,马赛克
+CRD_UNORUTO,うのると,Unoruto,우노루토,うのると(Unoruto)
+CRD_KRZ,KRZ,KRZ,KRZ,KRZ
+CRD_UNO_CB,配信、キャラクターデザイン、イラスト、シナリオ,"Publishing, Character Design, Illustration, Scenario Writing","퍼블리싱, 캐릭터 디자인, 일러스트, 시나리오",发行、角色设计、插画、剧本
+CRD_KRZ_CB,ゲーム企画、プログラミング、カットシーン実装、シナリオサポート、ゲームデザイン、UIデザイン、サウンドディレクション、翻訳,"Game Planning, Programming, Cutscene Implementation, Scenario Support, Game Design, UI Design, Sound Direction, Translation","게임 기획, 프로그래밍, 컷씬 구현, 시나리오 보조, 게임 디자인, UI 디자인, 사운드 디렉션, 번역",游戏企划、程序开发、过场动画实现、剧本协助、游戏设计、UI设计、音频指导、翻译
+GAME_ASK_TOILET_1,"この近くに公衆トイレ
+なかったっけ…？",Wasn't there a public restroom around here...?,"이 근처에 공중 화장실
+있지 않았던가…?",这附近是不是有公共厕所来着…？
+GAME_ASK_TOILET_2,"この近くの公衆トイレに
+向かって！！",Go to the nearby public restroom!!,이 근처 공중화장실 가줘!!,去附近的公共厕所！！
+GAME_ASK_TOILET_3,"[b]公衆トイレ！！早く！！
+急いで！！[/b]",[b]The public restroom!! Hurry!! Floor it!![/b],[b]공중화장실!! 빨리!! 밟아!![/b],"[b]公共厕所！！快点！！
+踩油门！！[/b]"
+GAME_ASK_ANSWER_YES_1,トイレへ,Restroom,화장실로,去厕所
+GAME_ASK_ANSWER_NO_1,家へ,Home,집으로,回家
+GAME_ASK_ANSWER_YES_2,行く,Go,간다,去
+GAME_ASK_ANSWER_NO_2,行かない,Don't Go,안 간다,不去
+GAME_ASK_ANSWER_YES_3,トイレへ,Restroom,화장실로,去厕所
+GAME_ASK_ANSWER_NO_3,家へ,Home,집으로,回家
+GAME_END_1,…！家が見える…！,...! There it is...! We're almost home...!,…! 집이다…! 다 왔어!,…！看到家了…！
+GAME_END_2,[sh]は…早く…！先に下して！[/sh],[sh]Q-Quick...! Let me out here!![/sh],[sh]빠… 빨리…! 나 먼저 내려줘!![/sh],[sh]快…快点…！先让我下车！！[/sh]
+GAME_END_3,早く！もう出そう！,Please hurry! I really need to go!,어서! 나올 것 같아!,快点！要出来了！
+GAME_END_4,急いでっ！もう限界…！,Hurry! I can't hold it much longer!,서둘러줘! 오래 못 참아!,快点！我快憋不住了！
+GAME_END_5,[sh]早くトイレまで行って！[/sh],[sh]Hurry! Get me to the restroom!![/sh],[sh]빨리 화장실 가줘!![/sh],[sh]快带我去厕所！！[/sh]
+GAME_END_6,[sh][b]…！車停めて！[/b][/sh],[sh][b]...! Pull over!![/b][/sh],[sh][b]…! 차 세워!![/b][/sh],[sh][b]…！快停车！[/b][/sh]
+GAME_END_7,"[sh][b]もうダメ！
+そこの袋ちょうだい！[/b][/sh]","[sh][b]I can't hold it anymore!
+Give me that plastic bag![/b][/sh]","[sh][b]더는 안 돼!
+거기 비닐봉지 좀 줘봐![/b][/sh]",[sh][b]不行了！快把那个塑料袋给我！[/b][/sh]
+GAME_END_8,[sh][b]あ…あっ…！ダメ…！[/b][/sh],[sh][b]Ah... ah...! No...!![/b][/sh],[sh][b]아… 아…! 안 돼…!![/b][/sh],[sh][b]啊…啊…！不行…！！[/b][/sh]
+GAME_RESPONSE_NO_1,もうすぐだから家でうんちしろって？我慢できるかな…？,You want me to poop when we get home? I don't know if I can hold…,"집에 가서 누라고…?
+참을 수 있을까…?","你是说马上就到家了，让我回家再便便吗…？
+我能忍得住吗…？"
+GAME_RESPONSE_NO_2,"えっ…通り過ぎちゃったの？
+結構ヤバいんだけど…？","W-Wait... we passed it?
+I'm getting pretty desperate here...","지… 지나쳤어??
+슬슬 위험한데…?","啊…已经开过头了吗？
+这下有点不妙了吧…？"
+GAME_RESPONSE_NO_3,"何で通り過ぎちゃったの！
+[sh][b]もう限界なのに！[/b][/sh]","Why did you drive past it?!
+[sh][b]I'm already at my limit![/b][/sh]","왜 지나친 거야!!
+[sh][b]이젠 한계라고![/b][/sh]","为什么直接开过去了啊！
+[sh][b]我已经忍到极限了！[/b][/sh]"
+RETURN_MM,タイトルにもどる,Return to Main Menu,메인 메뉴로 돌아가기,返回标题
+RETURN_MM_WARNING,"現在の進行状況は保存されません。
+戻りますか？","Current progress will not be saved.
+Return to the main menu?","진행 상황이 저장되지 않습니다.
+돌아가시겠습니까?","当前进度将不会保存。
+确定要返回吗？"
+GAME_PAUSED,ポーズ,PAUSED,일시 정지,暂停
+RIKA_PROFILE,"名前：リカ（20歳）
+種族：ネコミミ
+特徴：よく便秘になる","Name: Rika (20)
+Species: Catgirl
+Trait: Prone to Constipation","이름: 리카 (20세)
+종족: 고양이귀 수인
+특징: 자주 변비를 앓음","名字：莉卡（20岁）
+种族：猫耳兽人
+特点：经常便秘"
+BONUS_1,ゲームをご購入・プレイしていただき、ありがとうございます！ゲームクリア特典としてご用意した開発秘話をぜひお楽しみください。,"Thank you for purchasing and playing our game! We hope you enjoy these behind-the-scenes development notes, prepared as a completion bonus.",게임을 구매하고 플레이해주셔서 감사합니다! 게임 클리어 특전으로 준비한 개발 비화를 즐겨주세요.,感谢您购买并游玩本作！请尽情欣赏我们为通关特典准备的开发幕后花絮。
+BONUS_2,リカはもともと本作の主人公ではなく、別プロジェクトのマスコットキャラクターでした。そのため主にUIに登場し、うんちシーンも1つだけの予定でしたが、企画変更を経て本作の単独主人公となりました。いつか次回作にもカメオ出演するかもしれません。,"Rika wasn't originally meant to be this game's protagonist. She started out as the mascot of a different project, appearing mostly in UI artwork with just one planned poop scene. As the project evolved, she eventually became the sole protagonist. Maybe she'll even make a cameo in a future installment.","리카는 원래 이 게임의 주인공이 아니라, 다른 프로젝트의 마스코트 캐릭터였습니다. 그래서 UI에만 주로 등장하고 응가 씬도 하나뿐이었지만, 기획 변경을 거치며 단독 주인공이 되었습니다. 언젠가 차기작에서도 까메오로 등장할지도 모릅니다.",莉卡原本并不是本作的主角，而是另一个项目的吉祥物角色。因此，她原本主要出现在UI中，排便场景也只计划制作一个。不过在企划调整后，她最终成为了本作唯一的主角。也许有一天，她还会在续作中客串登场。
+BONUS_3,2026年3月13日に初めて制作されたリカのデザイン案です。耳の内側の色や、今より少しシャープな印象を除けば、デザインはほとんどそのまま受け継がれました。,"This is Rika's very first character design concept, created on March 13, 2026. Aside from the color inside her ears and her slightly sharper overall look, her design remained almost unchanged.","26년 3월 13일에 처음 나온 리카의 디자인 시안입니다. 귀의 안쪽 색깔이나, 약간 인상이 지금보다 샤프한 점을 제외하면, 디자인은 거의 동일하게 유지되었습니다.",这是2026年3月13日首次完成的莉卡角色设计稿。除了耳朵内侧的颜色，以及整体印象比现在稍显锐利之外，其余设计几乎都沿用至今。
+BONUS_4,リカがマスコットキャラクターだった頃にデザインされたボタンアセット6種です。最終的には未使用となりました。,These are six button assets designed when Rika was still the mascot character. They were ultimately left unused.,리카가 마스코트 캐릭터였을 때 디자인된 버튼 에셋 6종입니다. 최종적으로는 미사용되었습니다.,这是莉卡还是吉祥物角色时设计的6种按钮素材。最终并未在游戏中使用。
+BONUS_5,リカのうんちシーンはゲームクリア特典として企画されていました。UIアセット制作のために、リカが撮影バイトをするという内容です。ユニークな設定だったので未使用になったのは残念ですが、いつかまた活かしてみたいと思っています。,"Rika's poop scene was originally planned as a game completion bonus. It featured her taking a part-time photography job to help create the game's UI assets. It was a unique concept, and although we weren’t able to use it this time, we’d like to revisit it someday.","리카의 응가 씬은 원래 게임 클리어 특전이었습니다. UI 에셋 제작을 위해 리카가 사진 촬영 아르바이트를 하는 내용이었죠. 독특한 설정이라 미사용으로 남은 것이 아쉽지만, 언젠가 다시 활용해보고 싶습니다.",莉卡的排便场景原本是作为通关特典企划的。剧情讲述她为了制作游戏中的UI素材而接下摄影兼职。这个设定很独特，最终未能采用确实有些可惜，不过希望今后还有机会以其他方式运用这一创意。
+BONUS_6,本作はシリーズ化を視野に入れて企画されました。まだ公開できていないアイデアやキャラクターも数多く残っているので、いつか皆さんにお披露目できればと思っています。本作がシリーズの第一歩として、長く楽しんでいただけたら嬉しいです！,This game was conceived with a series in mind. We still have many unrevealed ideas and characters that we hope to share someday. We’d be thrilled if you continued to enjoy this first step in the series for years to come!,"이 게임은 시리즈화를 염두에 두고 기획되었습니다. 아직 공개하지 못한 아이디어와 캐릭터들도 많이 남아 있으니, 언젠가 모두 선보일 수 있기를 바랍니다. 이 작품이 시리즈의 첫걸음으로 오래 기억되면 정말 기쁠 것 같습니다.",本作在企划之初便考虑了系列化。我们还有许多尚未公开的创意和角色，希望未来有机会与大家见面。也希望作为本系列第一步的这部作品，能长久地给大家带来快乐！
+BONUS_NAME,- うのると＆KRZ,- Unoruto & KRZ,- 우노루토 & KRZ,- うのると＆KRZ

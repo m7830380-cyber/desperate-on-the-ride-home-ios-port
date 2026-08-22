@@ -1,0 +1,394 @@
+[gd_scene format=3 uid="uid://cdeu46mjg1rio"]
+
+[ext_resource type="Script" uid="uid://rp651a14xne" path="res://scripts/screens/BonusPanel.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://cu2qjmv57c06m" path="res://data/se/system/BonusGalleryButtonSound.mp3" id="2"]
+[ext_resource type="Texture2D" uid="uid://c534torpnmjm6" path="res://data/images/ui/rika_loading_stand.webp" id="3"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="4"]
+[ext_resource type="Texture2D" uid="uid://beolghyr2ixq2" path="res://icon_dr.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dcroq0ia6juqw" path="res://data/images/ui/rika_designidea.webp" id="6"]
+[ext_resource type="Texture2D" uid="uid://bbkk4jpslibnt" path="res://data/images/ui/ss_play_ideal.webp" id="7"]
+[ext_resource type="Texture2D" uid="uid://bluo5smyy6i56" path="res://data/images/ui/ss_replay_ideal.webp" id="8"]
+[ext_resource type="Texture2D" uid="uid://bkn1uhh0ibpj7" path="res://data/images/ui/ss_skip_ideal.webp" id="9"]
+[ext_resource type="Texture2D" uid="uid://c1ednsydwt70b" path="res://data/images/ui/ss_play_hover.webp" id="10"]
+[ext_resource type="Texture2D" uid="uid://bvwjn8brblkb5" path="res://data/images/ui/ss_replay_hover.webp" id="11"]
+[ext_resource type="Texture2D" uid="uid://f7ppa4nfa86x" path="res://data/images/ui/ss_skip_hover.webp" id="12"]
+[ext_resource type="Texture2D" uid="uid://d2srm0wchh1fd" path="res://data/images/ui/bonus_rika_cutscene.webp" id="13"]
+[ext_resource type="Texture2D" uid="uid://csxk8ten18wtc" path="res://data/images/ui/next_char.webp" id="14"]
+[ext_resource type="Texture2D" uid="uid://dcinknj6ad7ve" path="res://data/images/ui/next_char_name_jp.webp" id="15"]
+[ext_resource type="Texture2D" uid="uid://c27gmrbkeihlh" path="res://data/images/ui/bonus_arrow.webp" id="16"]
+
+[sub_resource type="FontVariation" id="FontVariation_e5tv8"]
+base_font = ExtResource("4")
+opentype_features = {
+1818847073: 0
+}
+
+[node name="BonusPanel" type="Control" unique_id=587842561]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+page_change_sfx = ExtResource("2")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1034219873]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.39215687)
+
+[node name="Item1" type="Control" parent="." unique_id=482857268]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Item1" unique_id=556094056]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -78.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="Label" parent="Item1" unique_id=1175124214]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 14.0
+offset_top = 13.0
+offset_right = -14.0
+offset_bottom = 367.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_e5tv8")
+theme_override_font_sizes/font_size = 32
+text = "BONUS_1"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Item2" type="Control" parent="." unique_id=1532796708]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect2" type="TextureRect" parent="Item2" unique_id=568208517]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -256.0
+offset_top = 14.0
+offset_right = 256.0
+offset_bottom = 526.0
+grow_horizontal = 2
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="Label" parent="Item2" unique_id=911035894]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 14.0
+offset_top = 57.0
+offset_right = -14.0
+offset_bottom = 383.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_e5tv8")
+theme_override_font_sizes/font_size = 30
+text = "BONUS_2"
+autowrap_mode = 3
+
+[node name="Item3" type="Control" parent="." unique_id=2028499109]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Item3" unique_id=1618246928]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 14.0
+offset_top = 14.0
+offset_right = -14.0
+offset_bottom = -321.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="Label" parent="Item3" unique_id=773404552]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 14.0
+offset_top = 165.0
+offset_right = -14.0
+offset_bottom = 383.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_e5tv8")
+theme_override_font_sizes/font_size = 32
+text = "BONUS_3"
+autowrap_mode = 3
+
+[node name="Item4" type="Control" parent="." unique_id=1539066023]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Item4" unique_id=574852237]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -222.0
+offset_top = 13.0
+offset_right = 222.0
+offset_bottom = 681.0
+grow_horizontal = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Item4/HBoxContainer" unique_id=2114879959]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Item4/HBoxContainer/VBoxContainer" unique_id=932893596]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="Item4/HBoxContainer/VBoxContainer" unique_id=490024079]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+texture = ExtResource("8")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect3" type="TextureRect" parent="Item4/HBoxContainer/VBoxContainer" unique_id=614215752]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+texture = ExtResource("9")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Item4/HBoxContainer" unique_id=2136364964]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Item4/HBoxContainer/VBoxContainer2" unique_id=858658682]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+texture = ExtResource("10")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="Item4/HBoxContainer/VBoxContainer2" unique_id=1555808488]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+texture = ExtResource("11")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect3" type="TextureRect" parent="Item4/HBoxContainer/VBoxContainer2" unique_id=140417659]
+custom_minimum_size = Vector2(0, 220)
+layout_mode = 2
+texture = ExtResource("12")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="Label" parent="Item4" unique_id=351360397]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 14.0
+offset_top = 211.0
+offset_right = -14.0
+offset_bottom = 383.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_e5tv8")
+theme_override_font_sizes/font_size = 32
+text = "BONUS_4"
+autowrap_mode = 3
+
+[node name="Item5" type="Control" parent="." unique_id=1632347810]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Item5" unique_id=974248071]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -264.6667
+offset_top = 166.0
+offset_right = 264.6667
+offset_bottom = 563.0
+grow_horizontal = 2
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="Label" parent="Item5" unique_id=1206714076]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 14.0
+offset_top = 90.0
+offset_right = -14.0
+offset_bottom = 383.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_fonts/font = SubResource("FontVariation_e5tv8")
+theme_override_font_sizes/font_size = 32
+text = "BONUS_5"
+autowrap_mode = 3
+
+[node name="Item6" type="Control" parent="." unique_id=1213653226]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="Item6" unique_id=1835145615]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -270.0
+offset_right = 270.0
+offset_bottom = 510.0
+grow_horizontal = 2
+texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="Item6/TextureRect" unique_id=504801203]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Text" type="RichTextLabel" parent="Item6" unique_id=954814348]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 14.0
+offset_top = 29.0
+offset_right = -14.0
+offset_bottom = 383.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_separation = 3
+theme_override_constants/outline_size = 7
+theme_override_fonts/normal_font = SubResource("FontVariation_e5tv8")
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+text = "[left]BONUS_6[/left]
+[font_size=16] [/font_size]
+[right]BONUS_NAME[/right]"
+scroll_active = false
+
+[node name="Prev" type="TextureButton" parent="." unique_id=1841997604]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -100.0
+offset_right = 100.0
+grow_vertical = 0
+texture_normal = ExtResource("16")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Next" type="TextureButton" parent="." unique_id=232592339]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -100.0
+grow_horizontal = 0
+grow_vertical = 0
+texture_normal = ExtResource("16")
+ignore_texture_size = true
+stretch_mode = 5
+flip_h = true

@@ -1,0 +1,213 @@
+[gd_scene format=3 uid="uid://7mywa8777xo8"]
+
+[ext_resource type="Script" uid="uid://v16r3abj1u35" path="res://scripts/screens/IntroCutscene.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://brc82evpibmf" path="res://data/images/cutscene_common/back_01_far_x2.webp" id="2"]
+[ext_resource type="Texture2D" uid="uid://huy16kv0g1cv" path="res://data/images/cutscene_common/back_02_meddium_x2.webp" id="3"]
+[ext_resource type="Texture2D" uid="uid://o1knmahg0fn0" path="res://data/images/cutscene_common/back_03_near_x2.webp" id="4"]
+[ext_resource type="Texture2D" uid="uid://cm1es7wbwinqy" path="res://data/images/cutscene_common/car_with_shadow_extended.webp" id="5"]
+[ext_resource type="Texture2D" uid="uid://cfee63vrqblc6" path="res://data/images/ui/gas_effect_1.webp" id="6"]
+[ext_resource type="Texture2D" uid="uid://coc1orxbl6qjw" path="res://data/images/ui/gas_effect_2.webp" id="7"]
+[ext_resource type="Texture2D" uid="uid://ci41g2auwby48" path="res://data/images/ui/gas_effect_3.webp" id="8"]
+[ext_resource type="Texture2D" uid="uid://dfw7lctthrcsm" path="res://data/images/ui/gas_effect_4.webp" id="9"]
+[ext_resource type="Texture2D" uid="uid://bidxg64iyi4tm" path="res://data/images/cutscene_common/chara_001.webp" id="10"]
+[ext_resource type="Texture2D" uid="uid://cdew7h1wb2so7" path="res://data/images/cutscene_common/car_with_shadow_extended_front_layer.webp" id="11"]
+[ext_resource type="Texture2D" uid="uid://hek4rs0yohw8" path="res://data/images/ui/breathe_1.webp" id="12"]
+[ext_resource type="Texture2D" uid="uid://dyox3tg8xxwsf" path="res://data/images/ui/breathe_2.webp" id="13"]
+[ext_resource type="Texture2D" uid="uid://xlgfgpajrdlp" path="res://data/images/ui/breathe_3.webp" id="14"]
+[ext_resource type="Texture2D" uid="uid://cf0fa2oqndam0" path="res://data/images/ui/breathe_4.webp" id="15"]
+[ext_resource type="Texture2D" uid="uid://c4v3pw2vycuvp" path="res://data/images/ui/cutscene_skip.webp" id="16"]
+[ext_resource type="PackedScene" uid="uid://bsod6tb53q88m" path="res://scenes/DialogueManager.tscn" id="17"]
+
+[node name="IntroCutscene" type="CanvasLayer" unique_id=507695920]
+script = ExtResource("1")
+
+[node name="BgFar" type="TextureRect" parent="." unique_id=1167831964]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 540.0
+offset_bottom = -545.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BgMed" type="TextureRect" parent="." unique_id=1605880860]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 176.0
+offset_right = 540.0
+offset_bottom = -547.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BgNear" type="TextureRect" parent="." unique_id=1283393385]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 266.3
+offset_right = 540.0
+offset_bottom = -546.7
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Car" type="TextureRect" parent="." unique_id=854678262]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="GasEffects" type="Control" parent="." unique_id=630483074]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Effect1" type="TextureRect" parent="GasEffects" unique_id=1478108094]
+visible = false
+layout_mode = 0
+offset_left = -100.0
+offset_top = 329.0
+offset_right = 300.0
+offset_bottom = 887.5
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect2" type="TextureRect" parent="GasEffects" unique_id=1216988817]
+visible = false
+layout_mode = 0
+offset_left = -85.0
+offset_top = 349.0
+offset_right = 518.5
+offset_bottom = 920.0
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect3" type="TextureRect" parent="GasEffects" unique_id=1013712040]
+visible = false
+layout_mode = 0
+offset_left = -173.0
+offset_top = 89.0
+offset_right = 540.5
+offset_bottom = 931.0
+texture = ExtResource("8")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect4" type="TextureRect" parent="GasEffects" unique_id=544165977]
+visible = false
+layout_mode = 0
+offset_left = -174.0
+offset_top = 247.0
+offset_right = 437.0
+offset_bottom = 960.0
+texture = ExtResource("9")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="EmitOrigin" type="Marker2D" parent="." unique_id=1894444129]
+position = Vector2(152, 722)
+
+[node name="Char" type="TextureRect" parent="." unique_id=936059920]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("10")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CarFront" type="TextureRect" parent="Char" unique_id=1862649388]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 743.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("11")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BreatheEffects" type="Control" parent="." unique_id=1162028223]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Effect1" type="TextureRect" parent="BreatheEffects" unique_id=1461610172]
+visible = false
+layout_mode = 0
+offset_left = 174.0
+offset_top = 199.0
+offset_right = 472.5
+offset_bottom = 435.5
+texture = ExtResource("12")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect2" type="TextureRect" parent="BreatheEffects" unique_id=1476526471]
+visible = false
+layout_mode = 0
+offset_left = 134.0
+offset_top = 154.0
+offset_right = 459.5
+offset_bottom = 443.0
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect3" type="TextureRect" parent="BreatheEffects" unique_id=1858830431]
+visible = false
+layout_mode = 0
+offset_left = 241.0
+offset_top = 297.0
+offset_right = 439.0
+offset_bottom = 448.0
+texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Effect4" type="TextureRect" parent="BreatheEffects" unique_id=414367377]
+visible = false
+layout_mode = 0
+offset_left = 216.0
+offset_top = 293.0
+offset_right = 432.5
+offset_bottom = 410.5
+texture = ExtResource("15")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SkipButton" type="TextureButton" parent="." unique_id=2032634931]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 140.0
+offset_bottom = 46.0
+texture_normal = ExtResource("16")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="DialogueManager" parent="." unique_id=1092409662 instance=ExtResource("17")]

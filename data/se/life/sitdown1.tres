@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SoundData" format=3 uid="uid://peekx50gbv5b"]
+
+[ext_resource type="Script" uid="uid://cdq144v0xyfo" path="res://scripts/autoload/SoundData.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://cu6ff6qh817ej" path="res://data/se/life/sitdown1.mp3" id="2"]
+
+[resource]
+script = ExtResource("1")
+stream = ExtResource("2")
+base_volume_db = 8.0
+metadata/_custom_type_script = "uid://cdq144v0xyfo"

@@ -1,0 +1,510 @@
+﻿key,ja,en,ko,zh
+ED2_D001_1,"[b]家に着いた！？[/b][w3][sh]は…[w3]早くっ…[w3]
+[fs15]トイレっ…！[/fs][/sh]","[b]We're home!?[/b][w3][sh] Q…[w3]quick…[w3]
+[fs12]THE BATHROOM…![/fs][/sh]",[b]도착했다!![/b][w3] 빠…[w3] 빨리…[w3] 화장실…!,"[b]到家了！？[/b][w3][sh]快…[w3]快点…[w3]
+[fs15]厕所…！[/fs][/sh]"
+ED2_D003_2,"[sh]うそでしょ…[w3]
+トイレ目の前なのに…[/sh]","[sh]No way…[w3]
+The toilet's right there…[/sh]","[sh]안 돼…[w3]
+화장실까지 다 왔잖아…[/sh]","[sh]不会吧…[w3]
+厕所明明就在眼前…[/sh]"
+ED2_D001_2,"ほんとにヤバいっ…！[w3]
+[sh][b][fs13]漏れるぅっ…！[/fs][/b][/sh]","This is really bad…![w3]
+[sh][b][fs13]I'M GONNA POOP MYSELF…![/fs][/b][/sh]","정말 한계야…[w3] [sh][b]쌀 것 같아…! [w3]
+빨리 응가…![/b][/sh]","真的不行了…！[w3]
+[sh][b][fs13]要拉裤子里了…！[/fs][/b][/sh]"
+ED2_D003_1,"ダメ…[w3]動けない…[w3]動いたら…
+[w3][sh][b][fs15]出るっ…！[/fs][/b][/sh]",No…[w3] I can't move…[w3] If I move…[w3][sh][b] IT'LL COME OUT…![/b][/sh],"안 돼…[w3] 못 움직이겠어…[w3]
+움직이면…[w3][sh][b] 이거 무조건 나와…![/b][/sh]","不行…[w3]我动不了…[w3]一动的话…
+[w3][sh][b][fs15]就要出来了…！[/fs][/b][/sh]"
+ED4_D009,[sh]んっ…[w3][fs13]おっ…[/fs][/sh],[sh]Mmh… [w3] [fs13]oh…[/fs][/sh],[sh]흐응…[w3] [fs13]으옷…[/fs][/sh],[sh]唔…[w3][fs13]哦…[/fs][/sh]
+ED4_D008,"[b][sh]んんっ…！[/sh][/b][w3]ヤダ…[w3]
+まだうんちでそう…","[b][sh]Nngh…![/sh][/b][w3] No… [w3]
+There's still more coming…","[sh][b]흐읏…![/b][/sh][w3] 응가… [w3]
+아직 더 나올 것 같아…","[b][sh]唔…！[/sh][/b][w3]不要…[w3]
+好像还有便便要出来…"
+ED4_D006,"[sh][fs13]んあっ…[/fs][w3]
+[wv]あああああああ…[/wv][/sh]","[sh][fs13]Ah…[/fs][w3]
+[wv]Aaaaaah…[/wv][/sh]",[sh]응앗…[/sh][w3][wv] 아아아아아아아…[/wv],"[sh][fs13]啊…[/fs][w3]
+[wv]啊啊啊啊啊啊啊…[/wv][/sh]"
+ED4_D005,[fs12][b][sh]ぐうぅうううっ…！[/sh][/b][/fs],[fs12][b][sh]Gnnngghhh…![/sh][/b][/fs],[fs12][b][sh]끄으으으으으응…![/sh][/b][/fs],[fs12][b][sh]咕呜呜呜呜…！[/sh][/b][/fs]
+ED4_D004,[b][fs13]…！[/fs][/b],[b][fs13]…![/fs][/b],[b][fs13]…![/fs][/b],[b][fs13]…！[/fs][/b]
+ED4_D002,[w5][fs15][sh]あっ…！[/sh][/fs],[w5][fs15][sh]Ah…![/sh][/fs],[w5][fs15][sh]어어…!?[/sh][/fs],[w5][fs15][sh]啊…！[/sh][/fs]
+ED3_D014,んっ…[w3][wv][b]はああああああ…♥[/b][/wv],Mmh…[w3][wv][b] Haaahhh…♥[/b][/wv],웃…[w3][wv][b] 후아아아아아아아…♥[/b][/wv],唔…[w3][wv][b]哈啊啊啊啊啊啊…♥[/b][/wv]
+ED4_D001,"着いた…！？[w3][sh]うあ…[w3]あ…[w3][/sh]
+ほんとにヤバいっ…！
+[fs11][b][w3][sh]も…[w3]漏れるっ…！[/sh][/b][/fs]",[b]We're here…!?[/b][w3][sh] Ugh… [w3] Ah… [w3][/sh] This is bad…! [b][w3][sh]I… [w3]I'm gonna poop myself…![/sh][/b],"[sh]도착했어…!?[w3] 으흑…[w3] 아읏…[w3][/sh]
+진짜 위험해…! [w3][sh]싸…[w3] [b]쌀 것 같아…![/b][/sh]","[b]到了…！？[/b][w3][sh]呜啊…[w3]啊…[w3][/sh]
+真的不行了…！
+[fs11][b][w3][sh]要…[w3]要拉出来了…！[/sh][/b][/fs]"
+ED3_D011,[sh]んんんんんんっ…♥[/sh],[sh]Nnngghhh…♥[/sh],[sh]흐으으으으응…♥[/sh],[sh]唔唔唔唔唔唔…♥[/sh]
+ED3_D010,んっ…[w3]ふんっ…,Mmph…[w3]hngh…,끄응…[w3] 후응…,唔…[w3]嗯…
+ED3_D012,"[sh]んっ…[w3]んっ…[w3][/sh]
+[fs12][b][wv]んっ…[w3]んんんんっ…♥[/wv][/b][/fs]","[sh]Mmh…[w3]ngh…[w3][/sh]
+[fs12][b][wv]Mmh…[w3]nnngh…♥[/wv][/b][/fs]","[sh]흥…[w3] 후읏…[w3][/sh]
+[fs12][b][wv]응…[w3] 흐으으응…♥[/wv][/b][/fs]","[sh]唔…[w3]唔…[w3][/sh]
+[fs12][b][wv]唔…[w3]唔唔唔唔…♥[/wv][/b][/fs]"
+ED8_D009,"もし誰かに見られたら…[w3]
+でも…[w3][sh]もう…[w3][b][fs13]限界…！[/fs][/b][/sh]","What if someone sees me…?[w3]
+No…[w3][sh] [b][fs13]I can’t…[w3]hold it any longer…![/fs][/b][/sh]","청소하는 분께는 죄송하지만…[w3]
+이젠…[w3][sh][b][fs13] 한계야…![/fs][/b][/sh]","要是被人发现的话…[w3]
+可是…[w3][sh]已经…[w3]
+[b][fs13]忍不住了…！[/fs][/b][/sh]"
+ED8_D008,用具入れの中…[w3]ここなら隠れてうんちできる…！,The janitor's closet… [w3] I can hide in here and poop…!,"청소도구함…[w3]
+여기라면 숨어서 응가할 수 있어…!","清洁工具间…[w3]
+我可以躲在这里便便…！"
+ED6_D014_2,全然袋に入ってないし…,It didn't even go into the bag…,봉지에도 다 안들어갔네…,完全没拉进袋子里…
+ED8_D002,そ…[w3]そんな！[w3]誰か入ってる…,N… [w3]no way![w3] Someone's already in there…,어…[w3] 어어?[w3] 누가 이미 있어…,怎…[w3]怎么会！[w3]里面有人…
+ED6_D014_1,"うあ…[w3]すっごいたくさん
+出ちゃった…",Ugh…[w3] I pooped so much…,으아…[w3] 응가 너무 많이 나왔어…,呜啊…[w3]竟然拉了这么多…
+ED3_D001,"着いた！？ [w3]
+ちょっと行ってくるからっ…[w3]
+待ってて…！",We're here!?[w3] I'll be right back… [w3] Wait here…!,도착했어!? [w3]후딱 다녀올테니까…[w3] 기다려줘…!,"到厕所了！？[w3]
+我去一下厕所…[w3]等我…！"
+ED8_D007,[sh]漏らすくらいなら…！[/sh],[sh]Better somewhere else than in my pants…![/sh],[sh]응가 지릴바엔 차라리…![/sh],[sh]与其拉在裤子里…！[/sh]
+ED8_D005,"これ…[w3]
+しばらく出てこなさそう…",At this rate… [w3]she won't be coming out anytime soon…,이거…[w3] 한동안 안 끝날 것 같은데…,"这样下去…[w3]
+她一时半会儿应该出不来…"
+ED8_D004,"私も…[w3][sh]もう…[w3]限界なのに…[w3]
+早く…[w3][b]終わって…！[/b][/sh]","I…[w3][sh]I'm… [w3] at my limit too… [w3]
+Please… [w3][b]hurry up…![/b][/sh]","나도…[w3][sh] 이젠…[w3] 한계인데…[w3]
+제발…[w3] 빨리…[w3][b] 끝내줘…![/b][/sh]","我也…[w3][sh]已经…[w3]到极限了…[w3]
+快点…[w3][b]结束吧…！[/b][/sh]"
+ED4_D003_1,"こ…[w3]これ…[w3]ヤバいかも…[w3]
+動けない…[w3]動いたら…[w3][b]出る…[/b]",This is bad… [w3] Can't move… [w3] If I do… [w3][b]it'll come out…[/b],"아…[w3] 안돼…[w3] 못 움직이겠어…[w3]
+움직이면…[w3] 백퍼 나온다…","这…[w3]这下…[w3]可能不妙了…[w3]
+不能动…[w3]一动…[w3][b]就要出来了…[/b]"
+ED4_D003_2,"ヤダ…[w3]
+トイレまであと少しなのに…",No… [w3]I'm almost there…,제바알…[w3] 화장실이 코 앞인데…,"不要…[w3]
+明明马上就到厕所了…"
+ED1_D004_1,"[sh]ん…[w3]んん…[/sh][w3]
+[wv][b][fs12]ああああああ…[/fs][/b][/wv]","[sh]Mmh…[w3]nngh…[/sh][w3]
+[wv][b][fs12]Aaaahhh…[/fs][/b][/wv]","[sh][wv][fs15]흐…[w3] 으응…[w3][/fs]
+[b][fs12]아아아아아아…[/fs][/b][/wv][/sh]","[sh]嗯…[w3]嗯嗯…[/sh][w3]
+[wv][b][fs12]啊啊啊啊啊啊…[/fs][/b][/wv]"
+ED7_D011,"[sh][fs13]んっ…[/fs][/sh][w3][b][wv]はあ…[w3]はあ…[/wv][/b][w3]
+終わった…","[sh][fs13]Mmh…[/fs][/sh][w3][b][wv] Hah…[w3] hah…[/wv][/b][w3]
+I'm done…",[sh]읏…[/sh][w3][b][wv] 하아…[w3] 하아…[/wv][/b][w3] 다 쌌다…,"[sh][fs13]唔…[/fs][/sh][w3][b][wv]哈啊…[w3]哈啊…[/wv][/b][w3]
+结束了…"
+ED1_D004_2,"[fs12]ま…[w5]間に合った…[w5][/fs]
+ダメかと思った…","[fs12]I…[w5]I made it…[w5][/fs]
+I thought I wasn't going to make it…","아…[w5] 안 늦었다…[w5]
+팬티에 응가 지리는 줄 알았네…","[fs12]总…[w5]总算赶上了…[w5][/fs]
+我还以为来不及了…"
+ED7_D010,"でも…[w3]
+お腹ラクになっていってる…",At least…[w3] my stomach feels a little better…,그래도…[w3] 배는 좀 편해졌어…,"不过…[w3]
+肚子倒是越来越轻松了…"
+ED7_D013,シートも汚れちゃったかも…,"I might've gotten some on the seat, too…",시트도 좀 더러워졌을지도…,座椅好像也弄脏了…
+ED3_D015_1,はあ…[w3]はあ…,Hah…[w3] hah…,하아…[w3] 하아…,哈啊…[w3]哈啊…
+ED7_D012,"う…[w3][fs7]グスン…[/fs][w3]ご…[w3]ごめん…[w3]
+うんちいっぱい出ちゃった…","Uh… [w3][fs7]*sniff*…[/fs][w3] s…[w3] sorry… [w3]
+I…[w3]I pooped all over myself…","우…[w3][fs7] 훌쩍…[/fs][w3] 미…[w3] 미안…[w3]
+응가 잔뜩 지려버렸어…","呜…[w3][fs7]呜呜…[/fs][w3]对…[w3]对不起…[w3]
+拉出来好多便便…"
+ED3_D015_2,"すっごい…[w3]出たぁ…[w3]
+[b]スッキリしたぁぁ…[/b]","I pooped…[w3] so much…[w3]
+[b]I feel sooo much better…[/b]","엄청나게…[w3] 눴다…[w3]
+[b]시원하다아아아…[/b]","居然…[w3]拉了这么多…[w3]
+[b]舒服多了…[/b]"
+INTRO_D004_3,家まで我慢できるかな…,Can I make it home…?,집까지 참을 수 있으려나…,我能撑到家吗…
+INTRO_D004_2,なんでこのタイミングでしたくなっちゃうの…！？,Why do I have to go now of all times…?!,"왜 꼭 이런 타이밍에
+마려워지는 거야…!?",为什么偏偏是这个时候想上厕所啊…！？
+INTRO_D004_1,"何日もうんち
+出てなかったのに…",I haven't been able to poop for days…,"며칠 동안이나 응가하려
+해도 안 나오더니…",明明已经好几天都没拉出来了…
+ED3_D016_2,ここのトイレのこと思い出した私えらすぎでしょ…,"Clever me, [w3]remembering this restroom was right here…","여기 화장실 떠올린 나 자신… [w3]
+아주 칭찬해…",能想起这里有厕所的我也太厉害了吧…
+ED3_D016_1,間に合ってよかったぁ…,I'm so glad I made it…,안 늦어서 다행이야…,幸好赶上了…
+ED2_D004_1,"[b][fs12]我慢しなきゃ…！[/fs][/b][w3]
+あと…[w3]ちょっと…","[b][fs12]I have to hold it…![/fs][/b][w3]
+Just…[w3] a little longer…",[sh]참아야 해…[w3] 조금만…[w3] 더…![/sh],"[b][fs12]一定要忍住…！[/fs][/b][w3]
+再…[w3]坚持一下…"
+ED2_D004_2,[b][fs13]目の前のトイレに入るだけなの…！[/fs][/b],[b][fs12]I just need to get into the bathroom right in front of me…![/fs][/b],[b][fs11]이제 문 열고 들어가서 변기에 앉기만 하면 되는데…![/fs][/b],[b][fs13]只要走进眼前的厕所就行了…！[/fs][/b]
+ED6_D016,"う…[w3][fs7]グスン…[/fs][w3]くさいよね…[w3]
+ほんとにごめんね…",Ugh…[w3] [fs7]*sniff*…[/fs][w3] I know it smells awful…[w3] I'm so sorry…,"후으… [w3][fs7]훌쩍…[/fs][w3] 냄새나지…[w3]
+진짜 미안해…","呜…[w3][fs7]呜呜…[/fs][w3]很臭吧…[w3]
+真的对不起…"
+ED6_D012,うんち多すぎだよ…[w3]何でこんな時に限って…！,[fs9]There's way too much poop…[w3] Why now of all times…![/fs],"응가 너무 많이 나오는거 아냐…?[w3] 
+왜 이럴 때 하필…!","便便也太多了…[w3]
+为什么偏偏是这种时候…！"
+ED6_D013,"[sh][fs14]んんっ…！[/fs]
+[w3][wv][b]んふぅぅぅぅ…[/b][/wv][/sh]","[sh][fs14]Nngh…![/fs]
+[w3][wv][b]Phewww…[/b][/wv][/sh]",[sh][fs14]끄흥…![/fs][/sh][w3][wv][b] 푸휴우우우우…[/b][/wv],"[sh][fs14]唔唔…！[/fs]
+[w3][wv][b]呼呜呜呜呜…[/b][/wv][/sh]"
+ED6_D010,[sh]んっ…[w3][fs12]んんっ…[/fs][/sh],[sh]Mmh…[w3][fs12]nngh…[/fs][/sh],[sh]읏…[w3] [fs12]흐으응…[/fs][/sh],[sh]唔…[w3][fs12]唔唔…[/fs][/sh]
+ED6_D011,"[sh][fs12][b]んんんんんんっ…[w3]
+うううううんっ…[/b][/fs][/sh]","[sh][fs12][b]Nnngghhh…[w3]
+nnnnggh…[/b][/fs][/sh]","[sh][fs12][b]흐으으으으응…[w3] 
+후끄으으으으으으으응…[/b][/fs][/sh]","[sh][fs12][b]唔唔唔唔唔唔…[w3]
+呜呜呜唔…[/b][/fs][/sh]"
+ED1_D002,"うあ…[w3]あ…[w3]ヤバい…[w3]
+[sh]ヤバいっ…！[/sh][w3]
+[sh][b]で…[w3]出るぅ…！[/b][/sh]","Ugh…[w3] ah…[w3] this is bad…[w3]
+[sh]This is really bad…![/sh][w3]
+[sh][b]I…[w3]It's coming out…![/b][/sh]","우아…[w3] 아…[w3] 조금만…[w3]
+[sh]더 참앗…![w3][b] 나…[w3] 나온닷…![/b][/sh]","呜啊…[w3]啊…[w3]糟了…[w3][sh]糟了…！[/sh][w3]
+[sh][b]要…[w3]要出来了…！[/b][/sh]"
+ED1_D003,[fs13][b][sh2]んんんんんんっ…！[/sh2][/b][/fs],[fs13][b][sh2]Nngghhh…![/sh2][/b][/fs],[fs13][b][sh2]흐으으으응…![/sh2][/b][/fs],[fs13][b][sh2]嗯嗯嗯嗯嗯嗯…！[/sh2][/b][/fs]
+ED7_D002_1,"あと少し…[w3]なのにっ…[w3]
+うんち…[w3]出ちゃうぅっ…！",But… [w3][b][sh]it's about to come out…![/sh][/b],"조금만 더…[w3] 참으면 되는데…[w3]
+[b][sh]응가…[w3] 나오겠어…![/sh][/b]","明明只差一点了…[w3]可是…[w3]
+便便…[w3]要出来了…！"
+ED1_D005,ん…[w3][b][fs15][wv]はあああああ…[/wv][/fs][/b],Mm…[w3][b][fs15][wv] Haaahhh…[/wv][/fs][/b],읏…[w3][b][fs15][wv] 하아아아아…[/wv][/fs][/b],嗯…[w3][b][fs15][wv]哈啊啊啊啊…[/wv][/fs][/b]
+ED1_D006,"はあ…[w3]はあ…[w3]
+ほんっっとにヤバかった…","Hah…[w3] hah…[w3]
+That was way too close…","하아…[w3] 하아…[w3]
+1초만 늦었어도… [w3]위험했어…","哈啊…[w3]哈啊…[w3]
+刚才真的好险…"
+ED1_D007,[fs13][sh]ん…[/sh][/fs][w3][fs11]まだ…[/fs11][w3][fs9]出る…[/fs],"[fs13][sh]Mmh…[/sh][/fs][w3]
+[fs11]There's still…[/fs11][w3][fs9] more…[/fs]","읏…[w3] 응가가 아직 더…[w3] 
+나올 것 같네…",[fs13][sh]嗯…[/sh][/fs][w3][fs11]还…[/fs11][w3][fs9]还有…[/fs]
+ED2_D005,[w5][b][fs12]あっ…！[/fs][/b],[w5][b][fs12]Ah…![/fs][/b],[w5][b][fs12]앗…![/fs][/b],[w5][b][fs12]啊…！[/fs][/b]
+ED7_D002_2,[fs9]お漏らしなんて絶対ダメっ…！[/fs][w3][sh][b]ガマンっ…！[w3]ガマンっ…！[/b][/sh],"[fs9]I can't poop myself…![/fs][w3][sh][b]
+I have to hold it… [w3] Hold it…![/b][/sh]","[fs9]지리는건 절대 안돼…[/fs][w3][sh][b]
+참아야 해…[w3] 참아앗…![/b][/sh]","[fs9]绝对不能拉在裤子里…！[/fs][w3]
+[sh][b]忍住…！[w3]忍住…！[/b][/sh]"
+ED1_D008,"[sh]んっ…[w3]んん…[w5][/sh]
+お…[w3][wv][b][fs12]おおおおおおぅ…[/fs][/b][/wv]","[sh]Mmh…[w3]nngh…[w5][/sh]
+Ooh…[w3][wv][b][fs12]ooohhh…[/fs][/b][/wv]","[sh]흣…[w3] 으응…[/sh][w5]
+오… [w3][wv][b][fs12]오오오오오오…[/fs][/b][/wv]","[sh]嗯…[w3]嗯嗯…[w5][/sh]
+哦…[w3][wv][b][fs12]哦哦哦哦哦哦…[/fs][/b][/wv]"
+ED1_D009,[fs13][sh]んっ…[/sh][w3][wv]ふぅ…[/wv][/fs],[fs13][sh]Mmh…[/sh][w3][wv] Phew…[/wv][/fs],[fs13][b][sh]읏…[/sh][/b][w3] [wv]휴우우우…[/wv][/fs],[fs13][sh]嗯…[/sh][w3][wv]呼…[/wv][/fs]
+ED2_D007,"[sh]んっ…[w3]んっ…[/sh][w3]
+やだ…[w3]うんち…[w3]
+[b]勝手に出てくる…[/b]","[sh]Mmh…[w3]nngh…[/sh][w3]
+No…[w3] it's…[w3]
+[b]coming out on its own…[/b]","[sh]읏…[w3] 으응…[/sh][w3] 안 돼…[w3] 응가…[w3]
+[b]멋대로 나오고 있어…[/b]","[sh]嗯…[w3]嗯嗯…[/sh][w3]
+不行…[w3]便便…[w3][b]自己出来了…[/b]"
+ED2_D006,"[sh]そんな…[/sh][w3]
+ここまで我慢したのに…","[sh]No way…[/sh][w3]
+I held it in all the way here…",어…[w3] 어떻게 여기까지 참았는데…[w3] 이럴 순 없어…,"[sh]怎么会…[/sh][w3]
+明明都忍到这里了…"
+ED3_D017_3,今度からできるだけしゃがむトイレを使ってみようかな？,I should use squat toilets more often when possible ♥,다음부턴 가능하면 이런 화장실을 자주 사용해야겠다♥,以后要不要尽量用蹲厕呢？
+ED8_D003_1,"しかも、[w3]
+中の人もうんちじゃん…",And… [w3]she's pooping too…,"게다가,[w3] 안에 사람도 응가잖아…",而且，[w3]里面的人也在便便…
+ED3_D017_2,しゃがむトイレだとうんち出やすいのかも？,Maybe squat toilets make it easier to poop?,"쭈그리고 앉는 변기라서 응가가
+술술 나왔던걸까?",用蹲厕是不是更容易便便呢？
+ED2_D002,[sh][fs15]あっ…[/fs][/sh],[sh][fs15]Ah…[/fs][/sh],[sh][fs15]앗…[/fs][/sh],[sh][fs15]啊…[/fs][/sh]
+ED3_D017_1,それに…[w3]今日のうんちすっごく気持ちよかった…,And…[w3] today's poop felt really good…,"그리고…[w3] 오늘은 엄청 시원하게
+응가했네…[w3] 변비였는데…","而且…[w3]
+今天的便便感觉特别舒服…"
+ED8_D003_2,"すごい音…[w3]
+お腹壊してるのかな…",Those sounds… [w3]Maybe she has an upset stomach…,소리 엄청난데…[w3] 배탈난 걸까…,"动静好大…[w3]
+是不是吃坏肚子了…"
+ED2_D009,[fs13]んっ…[/fs][w5][sh]はっ…！[/sh],[fs13]Mmh…[/fs][w5][sh] Ah…![/sh],[fs15]읏…[/fs][w3][sh] 하아…![/sh],[fs13]嗯…[/fs][w5][sh]哈…！[/sh]
+ED2_D008,"[b][sh]んっ…[w3]んんっ…[w3]
+[fs13]うううううんっ…！[/fs][/sh][/b]","[b][sh]Mmh…[w3]nnnnngh…[w3]
+[fs13]Nnngghhh…![/fs][/sh][/b]","[b][sh]흣…[w3] 흐으응…[w3]
+[fs13]후으으으으읏…![/fs][/sh][/b]","[b][sh]嗯…[w3]嗯嗯…[w3]
+[fs13]呜呜呜呜嗯…！[/fs][/sh][/b]"
+ED5_D008,ねえ…[w3]誰も来てないよね…？,"Hey… [w3] no one's coming, right…?",저기…[w3] 망 잘 보고 있는거지…?,那个…[w3]真的没人过来吧…？
+ED8_D006_1,"頑張ってここまで
+我慢したのに…！",I held it in all the way here…!,열심히 참아서 여기까지 왔는데…,我都拼命忍到这里了…！
+ED3_D008_2,もし車で漏らしたらと思うと怖いな…,It's scary to think I could've had an accident in the car…,"이걸 차에서 지렸다면…[w3]
+으으…[w3] 상상만 해도 끔찍해라…",一想到要是拉在车里就觉得后怕…
+ED5_D009,"ごめん…[w3]まだ…[w3]
+[b]いっぱいでそう…[/b]",Sorry… [w3] I think… [w3][b]there's still a lot more coming…[/b],"미안…[w3] 아직…[w3]
+응가 잔뜩 더 나올 것 같아…","对不起…[w3]还…[w3]
+[b]好像还有很多要出来…[/b]"
+ED8_D006_2,[b][sh][fs12]うんち漏れちゃうよ…！[/fs][/sh][/b],[b][sh][fs12]I'm gonna poop my pants…![/fs][/sh][/b],[b][sh][fs12]이러다 응가 지리겠어…![/fs][/sh][/b],[b][sh][fs12]要拉在裤子里了…！[/fs][/sh][/b]
+ED3_D008_1,"こんなの我慢してたのか…[w3]
+そりゃきついわけだ…",I was holding all of that in…[w3] No wonder it was so hard…,"이런걸 참고 있었던건가…[w3]
+힘들만 했네…","我居然一直憋着这么多…[w3]
+难怪会这么难受…"
+ED5_D004,"[sh]んんっ…！[/sh][w3]もう…[w3]
+[b]うんち…[sh][w3]出るっ…！[/sh][/b]",[sh]Nngh…![/sh][w3] I can't hold it… [w3][b]I'm… [sh][w3] I'm gonna poop…![/sh][/b],[sh]으읏…![/sh][w3] 응가…[w3][b][sh] 나온닷…![/sh][/b],"[sh]唔…！[/sh][w3]不行了…[w3]
+[b]便便…[sh][w3]要出来了…！[/sh][/b]"
+ED5_D005,"[sh]くぅっ…[w3]
+[fs12][b]ううううんんっ…！[/b][/fs]","[sh]Ngh… [w3]
+[fs12][b]Nnngghhhh…![/b][/fs][/sh]","[sh]크읏…[w3][fs12]
+[b]흐으으으으으으응…![/b][/fs]","[sh]呜…[w3]
+[fs12][b]呜呜呜呜呜唔…！[/b][/fs][/sh]"
+ED5_D006,[fs15][b][sh]んっ…[/sh][/b][/fs][w3][wv]ふぅぅっ…[/wv],"[fs15][b][sh]Mmh…[/sh][/b][/fs][w3]
+[wv]Phewww…[/wv]",[fs15]읏…[/fs][w3][wv] [b]프휴우우읏…[/b][/wv],[fs15][b][sh]唔…[/sh][/b][/fs][w3][wv]呼…[/wv]
+ED5_D007,"[wv][fs12]はあああああ…[/fs][/wv][fs9][w3]
+はあ…[w3]はあ…[/fs]","[wv][fs12]Haaahhh…[/fs][/wv][fs9][w3]
+Hah… [w3] hah…[/fs]","[wv][fs12]하아아아아아…[/fs][/wv]
+[fs9][w3]하아…[w3] 하아…[/fs]","[wv][fs12]哈啊啊啊啊啊…[/fs][/wv][fs9][w3]
+哈啊…[w3]哈啊…[/fs]"
+ED5_D001,"車停めて…！[w3]お願いっ…[w3]
+[sh]早くっ…！[/sh][w3]もうっ…[w3]
+[b][sh][fs11]我慢できないの…！[/fs][/sh][/b]","Pull over…! [w3] Please… [w3][sh]Hurry…![/sh][w3]
+[b][sh][fs11]I can't hold it anymore…![/fs][/sh][/b]","차 세워줘…![w3] 그냥 근처 갓길
+아무데나…[w3][sh] 빨리…![/sh][w3]
+더는…[w3] [b][sh][fs11]못참겠어…![/fs][/sh][/b]","快停车…！[w3]拜托了…[w3][sh]快点…！[/sh][w3]
+我…[w3][b][sh][fs11]真的忍不住了…！[/fs][/sh][/b]"
+ED1_D012,"[fs15][wv]はああああああ…[/wv][/fs][w5]
+[b][spd7]スッキリしたぁ…[/b]","[fs15][wv]Haaahhh…[/wv][/fs][w5]
+[b][spd7]I feel sooo much better…[/b]","[fs15][wv]하아아아아아…[/wv][/fs][w5]
+[b]시원하다아아아~…[/b]","[fs15][wv]哈啊啊啊啊啊啊…[/wv][/fs][w5]
+[b][spd7]舒服多了…[/b]"
+ED5_D002,"[b][fs13]ごめん！[/fs][/b][w3]
+誰か来ないか見張ってて…！","[b][fs13]Sorry![/fs][/b][w3] 
+Keep watch in case anyone comes…!","[b][fs13]미안![/fs][w3]
+누가 오는지만 망 좀 봐줘…![/b]","[b][fs13]对不起！[/fs][/b][w3]
+帮我看看有没有人过来…！"
+ED1_D011,"[wv]ああああああ…[/wv][w3]
+[fs13][b]いっぱい出るぅ…[/b][/fs]","[wv]Aaaahhh…[/wv][w3]
+[fs13][b]So much is coming out…[/b][/fs]",[wv]아아아아아아…[/wv][w3] [b]쭉 참았던 엄청난 양의 응가가 술술 나오네…♥[/b],"[wv]啊啊啊啊啊啊…[/wv][w3]
+[fs13][b]拉出来好多…[/b][/fs]"
+ED4_D010,"[sh]んっ…[w3]ううんっ…[w3]
+[b][fs12]ううううううんんっ…！[/fs][/b]","[sh]Mmh…[w3]nngh… [w3]
+[b][fs12]Nnngghhh…![/fs][/b][/sh]","[sh]읏…[w3] 흐으응…[w3]
+[b][fs12]후으으으으으응…![/fs][/b]","[sh]唔…[w3]呜唔…[w3]
+[b][fs12]呜呜呜呜呜唔…！[/fs][/b][/sh]"
+ED5_D003,"[fs9]ねえ…[w3]ほんとに誰も来てない？[/fs]
+[w3][b]絶対！？[/b]","[fs9]Hey… [w3] no one's really coming, right?[/fs] [w3][b]You're sure!?[/b]","저기…[w3] 정말 주변에 아무도 안와?[w3]
+[b]믿는다?[w3] 진짜지?[/b]","[fs9]那个…[w3]真的没人过来吧？[/fs]
+[w3][b]你确定！？[/b]"
+INTRO_D002,…！,…!,…!,…！
+ED1_D010,[fs14][sh][wv]んんんんんん…[/wv][/sh][/fs],[fs14][sh][wv]Nngghhh…[/wv][/sh][/fs],[b][wv][fs14][sh]후우으으으응…[/sh][/fs][/wv][/b],[fs14][sh][wv]嗯嗯嗯嗯嗯嗯…[/wv][/sh][/fs]
+ED3_D002,"[sh]早くっ…[w3]早くっ…[w3]
+[b]うんちっ…[w3]うんち出るっ…！[/b][/sh]",[sh]Hurry…[w3] hurry…[w3] [b]I need to poop…[w3] It's coming out…![/b][/sh],"[sh]빨리…[w3] 빨리잇…[w3]
+[b]응가…[w3] 응가 나온닷…![/b][/sh]","[sh]快点…[w3]快点…[w3]
+[b]便便…[w3]便便要出来了…！[/b][/sh]"
+ED4_D011,[sh]んっ…[w3]んっ…[/sh][w3]こんなの恥ずかしいよ…[w3]早く終わって…！,"[sh]Mmh… [w3]ngh…[/sh][w3]
+This is so embarrassing…","[sh]읏…[w3] 끙…[/sh][w3] 이런 꼴로 있는거 엄청
+창피해…[w3] 빨리 끝내야 하는데…!","[sh]唔…[w3]唔…[/sh][w3]这样太丢脸了…[w3]
+快点结束吧…！"
+INTRO_D003,[b][fs13]ご…[w3]ごめんっ！[/fs][/b],[b][fs13]S…[w3]Sorry![/fs][/b],[b][fs13]미…[w3] 미안…![/fs][/b],[b][fs13]对…[w3]对不起！[/fs][/b]
+ED3_D003,[sh]んんっ…！[/sh],[sh]Nngh…![/sh],[sh]으읏…![/sh],[sh]唔…！[/sh]
+ED4_D012,[fs7][sh]んっ…[w5][/sh][/fs][wv][fs12]ふうぅぅぅぅ…[/fs][/wv],[fs7][sh]Mmh… [w5][/sh][/fs][wv][fs12] Phewww…[/fs][/wv],[fs7][sh]웃…[w5][/sh][/fs][wv] [fs13]후우우우…[/fs][/wv],[fs7][sh]唔…[w5][/sh][/fs][wv][fs12]呼呜呜呜呜…[/fs][/wv]
+ED4_D013,"[wv][b][fs12]はああああああ…[w3][/fs][/b][/wv]
+全部出たぁ…","[wv][b][fs12]Haaahhh… [w3][/fs][/b][/wv]
+It's all out…","[wv][b][fs12]하아아아아아…[w3][/fs][/b][/wv]
+으…[w3] 응가…[w3] 전부 쌌다…","[wv][b][fs12]哈啊啊啊啊啊啊…[w3][/fs][/b][/wv]
+全都出来了…"
+INTRO_D001,"ねえ…[w3]まだ着かない…？[w3]
+結構ヤバいんだけど…","Hey…[w3] Are we there yet…?[w3]
+This is getting pretty bad…","저기…[w3] 아직 멀었어…?[w3]
+꽤 위험한 상황인데…","那个…[w3]还没到吗…？[w3]
+情况已经很不妙了…"
+ED8_D001,"着いた！？ [w3]
+ちょっと行ってくるからっ…[w3]
+待ってて…！",We're here!?[w3] I'll be right back…[w3] Wait here…!,도착했어!? [w3]후딱 다녀올테니까…[w3] 기다려줘…!,"到啦！？[w3]
+我去趟厕所…[w3]等我…！"
+ED3_D006,"んっ…[w3][wv][fs12]はああああああ…[/fs][/wv][w5]
+はあ…[w3]はあ…","Mmh…[w3][wv][fs12]Haaahhh…[/fs][/wv][w5]
+Hah…[w3] hah…","읏…[w3][wv] [fs12]하아아아아아아…[/fs][/wv][w5]
+하아…[w3] 하아…","唔…[w3][wv][fs12]哈啊啊啊啊啊啊…[/fs][/wv][w5]
+哈啊…[w3]哈啊…"
+ED3_D007,…[w3]うわっ！[w3][b]でっっっっ[w2]か！！[/b],…[w3]Whoa![w3][b] It's so[w2] huge!![/b],…[w3]우왓![w3][b] 응가 엄청 굵고 길어…![/b],…[w3]哇！[w3][b]好…[w2]好大！！[/b]
+ED4_D007_1,"[fs12]はあ…[w3]はあ…[/fs][w3]
+や…[w3]やってしまった…","[fs12]Hah… [w3] hah…[/fs][w3]
+I… [w3]I went and did it…","[fs12]하아…[w3] 하아…[w3][/fs]
+저…[w3] 저질러버렸다…","[fs12]哈啊…[w3]哈啊…[/fs][w3]
+我…[w3]我还是没忍住…"
+ED3_D004,[fs11][b][sh]んんんんんんっ…！[/sh][/b][/fs],[fs11][b][sh]Nnngghhh…![/sh][/b][/fs],[fs13][b][sh]흐으으으으응…![/sh][/b][/fs],[fs11][b][sh]唔唔唔唔唔唔…！[/sh][/b][/fs]
+ED3_D005,"んっ…[w3][fs12][sh]んんんんっ…！[/sh][/fs][w3]
+[wv]お…[w3]おおぅ…[/wv]","Mmh…[w3][fs12][sh]Nngghhh…![/sh][/fs][w3]
+[wv]O…[w3]oooh…[/wv]","읏…[w3][fs12][sh] 흐으으응…![/sh][/fs][w3]
+[wv]오…[w3] 오옷…[/wv]","唔…[w3][fs12][sh]唔唔唔唔…！[/sh][/fs][w3]
+[wv]哦…[w3]哦哦…[/wv]"
+ED8_D018,"[fs12][sh][b]んんんんんんっ…[/b][/sh][/fs][w3]
+久しぶりのうんち…[w3]
+[wv]いっぱい出るぅ…[/wv]","[fs12][sh][b]Nnngghhh…[/b][/sh][/fs][w3]
+I haven't pooped in so long… [w3]
+[wv]So much is coming out…[/wv]","[fs12][sh]흐으으으응…[/sh][/fs][w3]
+오랜만에 응가하는거라…[w3]
+[wv]잔뜩 나와아…[/wv]","[fs12][sh][b]唔唔唔唔唔唔…[/b][/sh][/fs][w3]
+好久没便便了…[w3]
+[wv]出来了好多…[/wv]"
+ED4_D007_2,トイレまであとちょっとだったのに…,I was almost there…,화장실까지 거의 다 왔는데…,明明马上就到厕所了…
+ED8_D019,"[wv]んっ…[w3]んっ…[w3][sh][fs11][b]
+ううううううんんんっ…[/b][/fs][/sh][/wv]","[wv]Mmh…[w3] nngh… [w3][sh][fs11][b]
+Nnngghhhh…[/b][/fs][/sh][/wv]",[wv]읏…[w3] 흥…[w3][sh][fs11][b] 후으으으으으으응…[/b][/fs][/sh][/wv],"[wv]唔…[w3]唔…[w3][sh][fs11][b]
+呜呜呜呜呜唔…[/b][/fs][/sh][/wv]"
+ED3_D009,うっ…[w3]マジか…[w3][b]まだ…[w3]出る…[/b],"Ugh…[w3] oh…[w3]
+[b]There's…[w3] still more…[/b]","웃…[w3] 실화냐…[w3][b]
+아직 더…[w3] 응가 나오겠는걸…[/b]",呜…[w3]不是吧…[w3][b]还…[w3]还要出来…[/b]
+ED8_D010,"[sh][fs9]もううんち我慢できないっ…！[/fs]
+[w3]もううんち出るっ…！[w3][b]ここでするっ…！[/b][/sh]","[sh]It… It's coming out…! [w3]
+[b]I'll just do it here…![/b][/sh]","[sh]더는 응가 못참앗…![w3]
+으… [w3]응가 멋대로 나온닷…![w3]
+[b]여기서 싸는 수 밖엔…![/b][/sh]","[sh]已经憋不住了…！[w3]
+便便要出来了…！[w3]
+[b]就在这里解决…！[/b][/sh]"
+ED8_D021,"はあ…[w3]はあ…[w3][fs8][b]スッキリしたぁ…[/b][/fs][w3]
+うんち間に合って
+ほんとによかったぁ…","Hah… [w3] hah… [w3]
+[fs8][b]I feel sooo much better…[/b][/fs][w3]
+I'm so glad I made it in time…","하아…[w3] 하아…[w3] 시원하다아…[w3]
+응가 안 늦어서 다행이야아…","哈啊…[w3]哈啊…[w3][fs8][b]舒服多了…[/b][/fs][w3]
+幸好赶上了，真的太好了…"
+ED8_D011,[fs13][b][sh]ううううううんっ…！[/sh][/b][/fs],[fs13][b][sh]Nnngghhh…![/sh][/b][/fs],[fs15][b][sh]으으으으응…![/sh][/b][/fs],[fs13][b][sh]呜呜呜呜呜唔…！[/sh][/b][/fs]
+ED8_D020,"んっ…[w3][wv][b][fs11]はああああああ…[/fs][/b][/wv]
+[w3]うんち…[w3][b]全部出たぁ…[/b]","Mmh… [w3][wv][b][fs11]Haaahhh…[/fs][/b][/wv]
+[w3]It's… [w3][b]finally all out…[/b]","웃…[w3][wv][b][fs11] 하아아아아아아아…[/fs][/b][/wv]
+[w3]응가…[w3][b] 전부 나왔다아…[/b]","唔…[w3][wv][b][fs11]哈啊啊啊啊啊啊…[/fs][/b][/wv]
+[w3]便便…[w3][b]全都出来了…[/b]"
+ED8_D012,"[sh][fs11]んんんんんんっ…！[w3][/fs][/sh][wv]
+ああああああ…[/wv]","[sh][fs11]Nnngghhh…! [w3][/fs][/sh][wv]
+Aaaahhh…[/wv]","[sh][fs13][b]흐으으으으응…![/b][w3][/fs][/sh]
+[wv]아아아아아아…[/wv]","[sh][fs11]唔唔唔唔唔唔…！[w3][/fs][/sh][wv]
+啊啊啊啊啊啊…[/wv]"
+ED8_D023,"トイレじゃないのに…[w3]
+気持ちよくって夢中でうんちしちゃった…",It felt so good that I got completely carried away pooping…,"화장실이 아닌데…[w3]
+기분 좋아서 나도 모르게 열중해서 응가해버렸어…","明明不是厕所…[w3]
+却因为太舒服，[w3]
+拉得太投入了…"
+ED8_D013,"んあっ…[w3][wv][fs13]はあああ…[/fs][/wv]
+[w3]はあ…[w3]はあ…","Ah… [w3][wv][fs13]Haaah…[/fs][/wv]
+[w3]Hah… [w3] hah…","으앗…[w3][wv][fs13] [b]하아아…[/b][/fs][/wv] 
+[w3]하아…[w3] 하아…","啊…[w3][wv][fs13]哈啊啊…[/fs][/wv]
+[w3]哈啊…[w3]哈啊…"
+ED8_D014,やっと…[w3]うんちできた…,Finally… [w3] I pooped…,드디어…[w3] 응가했다…,终于…[w3]拉出来了…
+ED8_D015,"[fs9]ギリギリまで我慢してたから…[w3]
+すごい勢いで出ちゃった…[/fs]",[fs9]I held it until the very last second… [w3]It came out with so much force…[/fs],"아슬아슬할 때까지 참아서
+그런가…[w3] 응가가 엄청난 기세로
+나왔네…","[fs9]可能是忍到最后一刻的关系…[w3]
+一下子全冲出来了…[/fs]"
+ED8_D024,"しかもこんなにたくさん…[w3]
+これ…[w3]どうしよう…","So much came out… [w3]
+What… [w3] should I do…?","게다가 이렇게나 잔뜩…[w3]
+이거…[w3] 어떡하지…","而且还拉了这么多…[w3]
+这下…[w3]该怎么办…？"
+ED8_D016,"[fs15]あっ…[/fs][w3][fs13]まだ…[/fs][w3][fs11]
+うんち…[/fs][w3][b][fs9]出る…[/fs][/b]",[fs15]Ah… [/fs][w3][fs13]There's… [/fs][w3][fs11]still more… [/fs][w3][b][fs9]coming out…[/fs][/b],"앗…[w3] 아직…[w3] 응가…[w3][b]
+더… [w3]나올 것 같아…[/b]","[fs15]啊…[/fs][w3][fs13]还有…[/fs][w3][fs11]
+便便…[/fs][w3][b][fs9]要出来…[/fs][/b]"
+INTRO_D005_2,[b]何か別のこと考えなきゃ…！[/b],[b]I need to think about something else…![/b],"[b]차라리 뭔가 다른 생각을
+하는게…![/b]",[b]得想点别的事情才行…！[/b]
+ED8_D017,"[sh][fs13]んっ…[w3]んんっ…[/fs][/sh][w3]
+うんち…[w3][b][fs11]太い…[/fs][/b]","[sh]Mmh…[w3]nngh…[/sh][w3]
+It's… [w3][b][fs11]so thick…[/fs][/b]",[sh]읏…[w3] 으응…[/sh][w3] 응가…[w3][b][fs13] 굵어…[/fs][/b],"[sh]唔…[w3]唔唔…[/sh][w3]
+便便…[w3][b][fs11]好粗…[/fs][/b]"
+ED5_D015,"それとさ…[w3]ティッシュ…[w3]
+持ってる…？",And…[w3] do you… [w3]have any tissues…?,그리고…[w3] 혹시…[w3] 휴지…[w3] 있어…?,对了…[w3]纸巾…[w3]你有吗…？
+ED5_D014,"…[w3]終わったよ…[w3]全部出た…[w3]
+ほんとにごめんね…[w3]
+こんなところ見せちゃって…","… [w3]It's over… [w3]It's all out…[w3]
+I'm really sorry… [w3]you had to see me like this…",…[w3]끝났어…[w3] 응…[w3] 다 눴어…[w3] 미안…[w3] 이런 모습 보여줘서…,"…[w3]结束了…[w3]全都出来了…[w3]
+真的对不起…[w3]
+让你看到我这副样子…"
+INTRO_D005_1,[sh]ダメ…[w3]意識すればするほどしたくなっちゃう…[/sh],"[sh]No…[w3]The more I think about it, the more I need to go…[/sh]","[sh]안 돼…[w3] 의식하면 할수록
+더 마려워져…[/sh]","[sh]不行…[w3]越是在意，[w3]
+就越想上厕所…[/sh]"
+ED5_D013,"[sh]んっ…[/sh][w3]
+[wv][fs13][b]はああああああ…[/b][/fs][/wv]","[sh]Mmh…[/sh][w3]
+[wv][fs13][b]Haaahhh…[/b][/fs][/wv]",[sh]읏…[/sh][w3][wv][fs13][b] 하아아아아아…[/b][/fs][/wv],"[sh]唔…[/sh][w3]
+[wv][fs13][b]哈啊啊啊啊啊啊…[/b][/fs][/wv]"
+ED5_D012,[fs15][b][sh]ううううううんんんんんんっ…！[/sh][/b][/fs],[fs15][b][sh]Nnngghhhh…![/sh][/b][/fs],[fs15][b][sh]흐으으으으으으응…![/sh][/b][/fs],[fs15][b][sh]呜呜呜呜呜唔…！[/sh][/b][/fs]
+ED5_D011,"[fs12][b][sh]ふぅっ…[w3]んんっ…！[w3]
+うんっ…！[/sh][w3]
+[sh2]ううううんっ…！[/sh2][/b][/fs]","[fs12][b][sh]Hnngh…[w3]nngh…! [w3]
+Mmh…![/sh][w3] [sh2]Nnngghhh…![/sh2][/b][/fs]","[sh2][fs12][b]후읏…[w3] 흐응…![w3] 읏…![w3] 
+흐으으으응…![/b][/fs][/sh2]","[fs12][b][sh]呼…[w3]唔…！[w3]唔…！[/sh][w3]
+[sh2]呜呜呜唔…！[/sh2][/b][/fs]"
+ED5_D010,[sh]んっ…[w3][fs13]んんっ…[/fs][/sh],[sh]Mmh…[w3][fs13]nngh…[/fs][/sh],[sh]읏…[w3] [fs13]끄흐으으응…[/fs][/sh],[sh]唔…[w3][fs13]唔…[/fs][/sh]
+ED6_D001,"ふ…[w3]袋…！[w3]早くっ…！[w3]
+[b][sh]も…[w3]漏れるっ…！[/sh][w3]
+[fs12]後部座席でする！[/fs][/b]",B…[w3]bag…![w3] Hurry…![w3] [b][sh]I…[w3]I'm gonna poop myself…![/sh][w3] [fs12]I'll do it in the back seat![/fs][/b],"비…[w3] 비닐 봉지…![w3] 빨리…![w3]
+[b][sh]나…[w3] 나올 것 같아…![/sh][w3]
+뒷좌석에서 그냥 쌀래![/b]","塑…[w3]塑料袋…！[w3]快点…！[w3]
+[b][sh]要…[w3]要拉出来了…！[/sh][w3]
+[fs12]我要在后座解决！[/fs][/b]"
+ED3_D013_2,お尻…[w3][b]気持ちいい…♥[/b],"My butt…[w3]
+[b]FEELS SO GOOD…♥[/b]","[b]뱃속이 비워지는 이 느낌… [w3]
+엄청 기분 좋아아…♥[/b]",屁股…[w3][b]好舒服…♥[/b]
+ED3_D013_1,"[wv]んんんんんんっ…[/wv][w3]
+いっぱい出るっ…[w3]","[wv]Nnngghhh…[/wv][w3]
+So much is coming out…[w3]","[wv]후으으으으으응…[/wv][w3]
+응가가 끝도없이 나오네…[w3]","[wv]唔唔唔唔唔唔…[/wv][w3]
+拉出来好多…[w3]"
+ED6_D003,"[sh]んっ…[w3]くっ…！[w3][/sh]
+うんち…[w3][b][sh]出ちゃうっ…！[/sh][/b]","[sh]Mmh…[w3] ngh…![w3]
+[b]It's coming out…![/b][/sh]",[sh]읏…[w3] 끄응…![w3][/sh] 응가…[w3][b][sh] 나온닷…![/sh][/b],"[sh]唔…[w3]呜…！[w3][/sh]
+便便…[w3][b][sh]要出来了…！[/sh][/b]"
+ED6_D002,ほんとにごめんっ…！[w3]でも…[w3][b][fs11]もう我慢できないの…！[/fs][/b],I'm really sorry…![w3] But…[w3] [b][fs11]I can't hold it anymore…![/fs][/b],"진짜 미안…![w3] 근데…[w3][b]
+[fs11]더는 응가 못 참을 것 같아…![/fs][/b]","真的对不起…！[w3]
+可是…[w3][b][fs11]我真的忍不住了…！[/fs][/b]"
+ED6_D005,"[sh][b][fs12]んんっ…！[/fs][/b][w3]
+[wv]ああああああ…[/wv][/sh]","[sh][b][fs12]Nngh…![/fs][/b][w3]
+[wv]Aaaahhh…[/wv][/sh]",[sh][b][fs12]으읏…![/fs][/b][w3][/sh][wv] 아아아아아아아…[/wv],"[sh][b][fs12]唔…！[/fs][/b][w3]
+[wv]啊啊啊啊啊啊…[/wv][/sh]"
+ED6_D004,[b][sh]ううううううんんんっ…！[/sh][/b],[b][sh]Nnngghhhh…![/sh][/b],[b][sh][fs13]흐으으으으으응…![/fs][/sh][/b],[b][sh]呜呜呜呜呜唔…！[/sh][/b]
+ED6_D007,[fs7]く…[w3]くっさ…！[/fs][w3]密室でうんちするとこんなにくさいの…！？,[fs7]I-It…[w3] reeks…![/fs][w3] There's nowhere for the smell to go…!,[fs7]내…[w3] 냄새 구렷…![/fs][w3] 밀폐된 곳이라 이렇게 냄새나는건가…!?,[fs7]好…[w3]好臭…！[/fs][w3]在这种密闭空间里便便，原来会这么臭吗…！？
+ED1_D001_1,家に着いた！？[w3]良かった…,We're home?![w3] Thank goodness…,도착했다…![w3] 다행이야…,到家了！？[w3]太好了…
+ED1_D013_1,"間に合ってよかったぁ…[w3]
+それに、[w3]限界まで我慢した
+あとのうんちって…","I'm so glad I made it…[w3]
+And,[w3] after holding it in
+to the absolute limit,","안 늦어서 다행이야…[w3]
+그리고,[w3] 한계까지 참았다가
+응가하는 거…","幸好赶上了…[w3]
+而且，[w3]憋到极限之后
+再便便的话…"
+ED4_D014_1,"うわ…[w3]お外なのにこんなに
+いっぱい出しちゃった…",Whoa… [w3] I can't believe I pooped this much out here…,"우왓…[w3] 밖에서 엉덩이 까고
+이렇게나 잔뜩 응가했어…",哇…[w3]居然在外面拉了这么多…
+ED6_D006,や…[w3]やっちゃった…[w3]車の中でうんちしちゃった…！,I…[w3]I really went and did it…[w3] I pooped in the car…!,"아으으… [w3]결국…[w3] 저질렀어…[w3]
+차 안에서 응가를…!","我…[w3]我还是没忍住…[w3]
+在车里拉出来了…！"
+ED1_D001_2,[sh]は…[w3]早くっ…[w3]トイレっ…！[/sh],[sh]H…[w3]hurry…[w3] the bathroom…![/sh],[sh]빠…[w3] 빨리…[w3] [b]화장실…![/b][/sh],[sh]快…[w3]快点…[w3]去厕所…！[/sh]
+ED6_D009,ヤダぁ…[w3]まだ…[w3]でそう…,No…[w3] there's…[w3] still more…,"아읏…[w3] 아직…[w3] 응가… [w3]
+[b]한참 더 나올 것 같아…[/b]",不要…[w3]还…[w3]还要出来…
+ED4_D014_3,これじゃパンツ捨てて帰るしかないな…[w3]サイアクだよ…,I'll have to throw my panties away before going home…,팬티도 버리고… [w3]이 나이에 밖에서 응가를… [w3][fs7]훌쩍…[/fs][w3] 최악이야 진짜…,这样只能把内裤扔掉再回去了…[w3]太糟糕了…
+ED6_D008,"ほんっっとにごめんっ…！[w3]
+窓開けた方がいいかも！","I'm so, so sorry…![w3] Maybe we should open a window!",지이이인짜 미안해…![w3] 창문 여는게 좋을지도…,"真的真的对不起…！[w3]
+最好把车窗打开！"
+ED1_D013_2,[fs12]結構[w3]気持ちいいかも…♥[/fs],[fs12]Pooping feels actually pretty[w3] good…♥[/fs],[fs12]제법[w3] 기분 좋은걸…♥[/fs],[fs12]感觉还挺[w3]舒服的…♥[/fs]
+ED4_D014_2,パンツにもたくさん…,And there's so much in my panties too…,팬티 안에도 응가가 잔뜩…,内裤里也拉了好多…
+ED2_D014_2,"ていうかうんち出すぎ…！[w3]
+どんだけ溜まってたんだ…","And I pooped so much…![w3]
+How much was I holding in…?","게다가 응가 너무 많이 나왔어…![w3]
+얼마나 쌓여 있었던 거야…","而且便便也太多了…！[w3]
+我到底攒了多少啊…"
+ED2_D014_1,"やっちゃった…[w3]
+パンツに全部出しちゃった…[w3]
+頑張って我慢したのに…",I messed up…[w3] I pooped my pants…[w3] Even after trying so hard to hold it…,"저질렀다…[w3] 팬티에 완전히
+다 싸버렸어…[w3]
+기껏 열심히 참았는데…","完蛋了…[w3]
+全都拉在内裤里了…[w3]
+明明都拼命忍到这里了…"
+ED7_D008,"やだ…[w3]どんどん出てくる…[w3]
+それに…[w3]すごくクサい…！",Nooo…[w3] it keeps coming out… [w3]And… [w3]it reeks…!,"싫어어…[w3] 계속 나와아…[w3]
+게다가…[w3] 냄새 엄청 구려…!","不要…[w3]还在不停地往外冒…[w3]
+而且…[w3]好臭…！"
+ED7_D009,"[sh]うあ…[/sh][w3]スパッツの中で
+うんちが…[w3]気持ち悪いよ…",There's poop in my leggings… [w3]It feels so gross…,"[sh]우앗…[/sh][w3] 스패츠 안에 응가가…[w3]
+엄청 찝찝해…","[sh]呜啊…[/sh][w3]紧身裤里全是便便…[w3]
+好恶心…"
+ED7_D006,"…！[w3] ほんっっ[w3]とにごめん…[w3]
+うんち…[w3][fs9]まだ…[/fs][w3][fs8]出る…[/fs]",…![w3] I'm really sorry… [w3]I think… [w3][fs9]there's still… [/fs][w3][fs8]more… [w3][/fs][fs7]coming out…[/fs],"…![w3] 진짜 미안해…[w3]
+응가…[w3][fs9]아직…[/fs][w3][fs8]더… [w3][/fs][fs7]나올 것 같아…[/fs]","…！[w3]真…[w3]真的对不起…[w3]
+便便…[w3][fs9]还没…[/fs][w3][fs8]拉完…[/fs]"
+ED7_D007,"[sh][b]んっ…[w3]ううんっ…
+[w3][fs12]ううううううんっ…！[/fs][/b][/sh]","[sh][b]Mmh…[w3]nngh…
+[w3][fs12]Nnngghhh…![/fs][/b][/sh]","[sh][b]읏…[w3] 흐으응…[w3]
+[w3][fs12]후으으으으응…![/fs][/b][/sh]","[sh][b]唔…[w3]呜唔…
+[w3][fs12]呜呜呜呜呜唔…！[/fs][/b][/sh]"
+ED8_D022_2,トイレまで我慢できなくてバケツにうんちしちゃった…,"I couldn't hold it, so I ended up pooping in a bucket…","화장실까지 못 참아서 통에다가
+응가해버렸는걸…","没能忍到厕所，[w3]
+结果在水桶里便便了…"
+ED7_D004,"[sh]う…[w3]うそ…[/sh][w3]うんち…[w3]出てる…[w3]
+うんち…[w3]漏らしちゃった…！",[sh]H…[w3]huh…?[/sh][w3] It…[w3] just…[w3] came out… [w3][b]I…[w3]I pooped myself…![/b],"[sh]어…[w3] 어어…?[/sh][w3] 응가…[w3] 멋대로…[w3]
+나왔어…[w3] [b]응가…[w3] 지려버렸어…![/b]","[sh]不…[w3]不会吧…[/sh][w3]便便…[w3]出来了…[w3]
+我…[w3]拉在裤子里了…！"
+ED7_D005,"ご…[w3]ごめん…[w3]うんち…[w3]
+[b][spd5]我慢できなかった…[/b]","S…[w3]sorry…[w3] 
+I…[w3][b][spd5]I couldn't hold it…[/b]",미…[w3] 미안해…[w3] 응가…[w3] 못 참았어…,"对…[w3]对不起…[w3]便便…[w3]
+[b][spd5]我没忍住…[/b]"
+ED8_D022_1,"…あれ？[w3]
+これ間に合ってないよね…？","…Huh?[w3] 
+That doesn't count as making it in time, does it…?",…[w5]아니…[w3] 잘 생각해보니 안 늦은건 아니잖아…?,"…咦？[w3]
+这根本不算赶上了吧…？"
+ED7_D003,[w3]…[w5]！？,[w3]…[w5]!?,[w3]…[w5]!?,[w3]…[w5]！？
+ED7_D001,"[sh]あと少し…[w3]あと少しっ…！[/sh][w3]
+もうすぐ家に付くからっ…！",[sh]Just a little longer… [w3] I can make it… [w3]I'm almost home…![/sh],"[sh]조금만 더…[w3] 참으면…[w3]
+곧 있으면 집에 도착이야…![/sh]","[sh]再坚持一下…[w3]再坚持一下…！[/sh][w3]
+马上就到家了…！"
+ED6_D015_2,車ににおい付いちゃうかも…[w3]サイアク…,The smell might stay in the car…[w3] This is the worst…,"이 정도면…[w3] 한동안 차에 냄새
+밸지도 모르겠어…","车里可能会留下味道…[w3]
+太糟糕了…"
+ED6_D015_1,それに…[w3]くさすぎだよぉ…,And…[w3] it smells way too bad…,게다가…[w3] 냄새도 엄청 지독해…,而且…[w3]也太臭了…
+ED2_D012,[spd5][sh][b][fs11]んんんんんんっっ…！[/fs][/b][/sh],[fs11][sh][b]Nnngghhh…![/b][/sh][/fs],[sh][fs13][b]흐으으으으응…![/b][/fs][/sh],[fs11][sh][b]嗯嗯嗯嗯嗯嗯…！[/b][/sh][/fs]
+ED2_D013,[wv][fs12]はああああああ…[/fs][/wv],[wv][fs12]Haaahhh…[/fs][/wv],[wv][fs12]하아아아아아아…[/fs][/wv],[wv][fs12]哈啊啊啊啊啊啊…[/fs][/wv]
+ED2_D010,[wv]はあっ…[w3]はあっ…[/wv],[wv]Hah…[w3] hah…[/wv],[wv]하아…[w3] 하아…[/wv],[wv]哈啊…[w3]哈啊…[/wv]
+ED2_D011,[fs15]あ…[/fs][w3][fs13]まだ…[/fs][w3][b][sh]出る…[/sh][/b],[fs15]Ah…[/fs][w3][fs13] There's still…[/fs][w3][b][sh]more coming out…[/sh][/b],"[fs15]앗…[/fs][w3] [fs13]응가 또…[/fs][w3][b][sh]
+나올 것 같아…[/sh][/b]",[fs15]啊…[/fs][w3][fs13]还有…[/fs][w3][b][sh]要出来…[/sh][/b]

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SoundData" format=3 uid="uid://bgxjxswko1dil"]
+
+[ext_resource type="Script" uid="uid://cdq144v0xyfo" path="res://scripts/autoload/SoundData.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://by0t1dxnr7qfs" path="res://data/se/bowel/gurgle8.ogg" id="2"]
+
+[resource]
+script = ExtResource("1")
+stream = ExtResource("2")
+metadata/_custom_type_script = "uid://cdq144v0xyfo"

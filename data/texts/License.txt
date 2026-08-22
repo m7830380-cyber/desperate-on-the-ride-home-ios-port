@@ -1,0 +1,679 @@
+THIRD-PARTY NOTICES
+===================
+
+This game includes Godot Engine, third-party font software, and third-party music.
+The font and music files are embedded in the game's executable and are not sold separately.
+
+Notice prepared: 2026-07-26
+Text encoding: UTF-8
+
+===============================================================================
+1. GODOT ENGINE 4.6
+===============================================================================
+
+Godot Engine 4.6
+
+Copyright (c) 2014-present Godot Engine contributors (see AUTHORS.md).
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Source:
+https://github.com/godotengine/godot/tree/4.6-stable
+
+
+===============================================================================
+2. FONTS LICENSED UNDER THE SIL OPEN FONT LICENSE, VERSION 1.1
+===============================================================================
+
+The following fonts are licensed under the SIL Open Font License, Version 1.1.
+The complete English text of the license appears once in Section 2.8 and
+applies to every font identified in Sections 2.1 through 2.7.
+
+-------------------------------------------------------------------------------
+2.1 Hakgyoansim Dunggeunmiso / 학교안심 둥근미소
+-------------------------------------------------------------------------------
+
+Files used:
+- Hakgyoansim Dunggeunmiso TTF B.ttf
+- Hakgyoansim Dunggeunmiso TTF R.ttf
+
+Copyright holder:
+Korea Education and Research Information Service (KERIS)
+
+Typeface production:
+Heumm Design
+
+License:
+SIL Open Font License, Version 1.1
+
+The official distributor expressly permits commercial use, UI/UX use,
+embedding, modification, and redistribution under the OFL.
+
+Source:
+https://copyright.keris.or.kr/wft/fntDwnldView?fntGrpId=GFT202408200000000000003
+
+
+-------------------------------------------------------------------------------
+2.2 Petanko / ぺたんこ
+-------------------------------------------------------------------------------
+
+Files used:
+- Petanko-Bold.otf
+- Petanko-Regular.otf
+
+Project attribution:
+Petanko by Flop Design
+Derived from Zen Maru Gothic.
+
+License:
+SIL Open Font License, Version 1.1
+
+Source:
+https://flopdesign.booth.pm/items/7857280
+
+
+-------------------------------------------------------------------------------
+2.3 Swei Fist Leg CJK SC / 獅尾詠腿黑體 CJK SC
+-------------------------------------------------------------------------------
+
+Files used:
+- SweiFistLegCJKsc-Bold-2.ttf
+- SweiFistLegCJKsc-Regular-2.ttf
+
+Project attribution:
+Swei Fist Leg by Max (max32002)
+Derived from Source Han Sans / Noto Sans CJK.
+
+License:
+SIL Open Font License, Version 1.1
+
+Source:
+https://github.com/max32002/swei-fist-leg
+
+
+-------------------------------------------------------------------------------
+2.4 ZCOOL KuaiLe / 站酷快乐体
+-------------------------------------------------------------------------------
+
+File used:
+- ZhanKuKuaiLeTi2016XiuDingBan-1.ttf
+
+Copyright 2018 The ZCOOL KuaiLe Project Authors
+(https://github.com/googlefonts/zcool-kuaile)
+
+License:
+SIL Open Font License, Version 1.1
+
+The family is also distributed under the name ZCOOL KuaiLe.
+
+Source:
+https://github.com/googlefonts/zcool-kuaile
+
+
+-------------------------------------------------------------------------------
+2.5 Hachi Maru Pop
+-------------------------------------------------------------------------------
+
+Font family used:
+- Hachi Maru Pop
+
+Copyright 2020 The Hachi Maru Pop Project Authors
+(https://github.com/noriokanisawa/HachiMaruPop)
+
+License:
+SIL Open Font License, Version 1.1
+
+Source:
+https://fonts.google.com/specimen/Hachi+Maru+Pop
+
+
+-------------------------------------------------------------------------------
+2.6 Gaegu / 개구
+-------------------------------------------------------------------------------
+
+Font family used:
+- Gaegu
+
+Copyright 2018 The Gaegu Project Authors
+
+License:
+SIL Open Font License, Version 1.1
+
+Source:
+https://fonts.google.com/specimen/Gaegu
+
+
+-------------------------------------------------------------------------------
+2.7 Short Stack
+-------------------------------------------------------------------------------
+
+Font family used:
+- Short Stack
+
+Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
+with Reserved Font Name "Short Stack".
+
+License:
+SIL Open Font License, Version 1.1
+
+Source:
+https://fonts.google.com/specimen/Short+Stack
+
+
+-------------------------------------------------------------------------------
+2.8 SIL OPEN FONT LICENSE, VERSION 1.1 — OFFICIAL ENGLISH TEXT
+-------------------------------------------------------------------------------
+
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+
+PREAMBLE
+
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+
+===============================================================================
+3. 07 NIKUMARU FONT / 07にくまるフォント
+===============================================================================
+
+File used:
+- 07にくまるフォント.otf
+
+Font attribution:
+Fontna / Flop Design
+Based on M+ FONTS.
+
+Embedded copyright metadata commonly distributed with this font:
+www.fontna.com / Copyright (c) 2014 M+ FONTS PROJECT
+
+License:
+M+ FONTS Project License (LICENSE_E)
+
+M+ FONTS Copyright (C) 2002-2014 M+ FONTS PROJECT
+
+These fonts are free software.
+
+Unlimited permission is granted to use, copy, and distribute them, with
+or without modification, either commercially or noncommercially.
+
+THESE FONTS ARE PROVIDED "AS IS" WITHOUT WARRANTY.
+
+Sources:
+https://www.fontna.com/blog/nikumaru_font.html
+https://flopdesign.booth.pm/items/4571432
+
+
+===============================================================================
+4. TSANGER SHU YUAN / 仓耳舒圆体
+===============================================================================
+
+Files used:
+- CangErShuYuanTiW02-2.ttf
+- CangErShuYuanTiW04-2.ttf
+
+Copyright holder:
+Beijing Tsanger Character Technology Co., Ltd.
+北京仓耳文字技术有限公司（仓耳字库）
+
+License:
+Tsanger Free Commercial Font License Statement
+仓耳字库免费商用字体授权声明
+
+The official license permits free commercial use worldwide, including use,
+study, copying, merging, embedding, modification, and redistribution of
+modified or unmodified font copies, subject to its conditions.
+
+Authoritative Chinese license terms:
+
+版权声明：
+
+免费商用字体软件（以下简称免费字体）的字体软件及其单个字形的著作权归
+北京仓耳文字技术有限公司（以下简称仓耳字库）所有，不因使用者的改变而发生转移。
+
+许可与条件：
+
+特此允许任何取得免费字体的用户，授予在全球所有领域任何用户永久免费商用的
+权力，可用于免费使用、研究、复制、合并、嵌入、修改、再分发已修改和未修改的
+字型副本，但需要遵守下列所规定的条件：
+
+1. 无论是原始版本或修改版本，免费字体或其中任何独立的个别构件，均不能被单独销售。
+
+2. 使用的免费字体不得违反法律法规等的相关规定、不违反公序良俗、不违背政治环境
+且不侵犯任何第三方的任何合法权益，因此产生的一切后果由用户自行承担。
+
+3. 免费字体，无论已修改或未修改、部分或整体，均必须完全通过本授权下分发，
+不得在任何其他授权条款下分发。
+
+终止授权：
+
+假如上述任一条款无法被遵守，本授权条款将会失效。
+
+免责声明：
+
+仓耳字库并不作任何明示或暗示的保证，包括但不限于对免费字体的适销性、特定用途
+适用性和不侵犯版权、专利权、商标权或任何其他权利的保证。在任何情况下，无论是在
+合同诉讼、侵权诉讼或其他诉讼中，仓耳字库均不承担因使用或无法使用免费字体，或出于
+任何使用免费字体的任何行为而产生、引起的任何索赔、损害或可归责事由而来的任何责任，
+包括任何一般、特殊、间接、附带或结果性损害。
+
+Official license statement:
+https://tsanger.cn/仓耳字库免费商用字体授权声明.pdf
+
+Font family source:
+https://tsanger.cn/product/205
+
+
+===============================================================================
+5. GYEONGGI CHEONNYEON TITLE / 경기천년제목
+===============================================================================
+
+Files used:
+- 경기천년제목_Bold.ttf
+- 경기천년제목_Light.ttf
+- 경기천년제목_Medium.ttf
+
+Copyright holder and provider:
+Gyeonggi Province, Republic of Korea
+대한민국 경기도
+
+License notice:
+
+경기도 서체는 특별한 허가 절차 없이 누구나 무료로 다운로드 받아 자유롭게
+사용할 수 있습니다. 영상, 인쇄, 웹, 로고, 간판 등 다양한 매체에 자유롭게
+사용이 가능하며, 프로그램에 탑재하여 배포하는 것도 가능합니다.
+
+단, 경기천년체 폰트 자체를 그대로 판매하거나 유료로 양도하는 행위는
+허용되지 않습니다.
+
+English informational translation:
+
+Gyeonggi Province fonts may be downloaded and used freely by anyone without
+a separate permission procedure. They may be used in video, print, web,
+logos, signs, and other media, and may be embedded in and distributed with
+software. The font software itself may not be sold or transferred for a fee
+as a standalone product.
+
+Source:
+https://www.gg.go.kr/contents/contents.do?ciIdx=679&menuId=2457
+
+
+===============================================================================
+6. MUSIC PROVIDED THROUGH DOVA-SYNDROME
+===============================================================================
+
+The following music tracks are used as background music in this game.
+
+Source platform:
+DOVA-SYNDROME
+
+Audio Usage License:
+https://dova-s.jp/help/articles/license/
+
+License and creator-specific conditions reviewed:
+2026-07-26
+
+Under the DOVA-SYNDROME Audio Usage License, these tracks may be used free
+of charge in commercial and noncommercial works, including paid and free
+games, when the tracks are used as background or subordinate music rather
+than as the primary content.
+
+Copyright attribution and provider attribution are not required by the
+DOVA-SYNDROME Audio Usage License. The track and creator credits below are
+included voluntarily for identification, attribution, and license-record
+purposes.
+
+Used under the DOVA-SYNDROME Audio Usage License and the applicable
+creator-specific conditions reviewed on 2026-07-26.
+
+General restrictions:
+- The music must not be sold, redistributed, or provided as standalone
+  music material.
+- Uses in which the music itself is the primary content, such as a simple
+  background-music collection, are outside the ordinary background-music
+  license.
+- Political, religious, or other ideological content is prohibited under
+  the DOVA-SYNDROME Audio Usage License.
+- All creator-specific conditions listed below remain applicable.
+
+
+-------------------------------------------------------------------------------
+6.1 休み時間のおしゃべり
+-------------------------------------------------------------------------------
+
+Creator:
+ハモおた
+
+Source:
+https://dova-s.jp/bgm/detail/13647
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+Use of the track for AI training is prohibited.
+
+
+-------------------------------------------------------------------------------
+6.2 ぱにっくぱにっく
+-------------------------------------------------------------------------------
+
+Creator:
+shimtone
+
+Source:
+https://dova-s.jp/bgm/detail/9855
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License. Credit and usage
+reports are optional.
+
+
+-------------------------------------------------------------------------------
+6.3 Laze Around At Home
+-------------------------------------------------------------------------------
+
+Creator:
+ハモおた
+
+Source:
+https://dova-s.jp/bgm/detail/15409
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+Use of the track for AI training is prohibited.
+
+
+-------------------------------------------------------------------------------
+6.4 ちょっとトボける
+-------------------------------------------------------------------------------
+
+Creator:
+天野 七祈
+
+Source:
+https://dova-s.jp/bgm/detail/15296
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License.
+
+
+-------------------------------------------------------------------------------
+6.5 雨の町子さん
+-------------------------------------------------------------------------------
+
+Creator:
+VeryGoodMan
+
+Source:
+https://dova-s.jp/bgm/detail/1819
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License.
+
+
+-------------------------------------------------------------------------------
+6.6 やるきのない一日
+-------------------------------------------------------------------------------
+
+Creator:
+SEASIDE STUDIO
+
+Source:
+https://dova-s.jp/bgm/detail/6266
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License. Usage reports and
+permission requests are optional.
+
+
+-------------------------------------------------------------------------------
+6.7 Funky droll street
+-------------------------------------------------------------------------------
+
+Creator:
+蒲鉾さちこ
+
+Source:
+https://dova-s.jp/bgm/detail/18675
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator conditions:
+- Unauthorized reuploading or redistribution is prohibited.
+- AI training and AI-based alteration are prohibited.
+- Major modification of the music is prohibited.
+- Credit and usage reports are optional.
+
+
+-------------------------------------------------------------------------------
+6.8 ちょっと楽しい
+-------------------------------------------------------------------------------
+
+Creator:
+天野 七祈
+
+Source:
+https://dova-s.jp/bgm/detail/2347
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License.
+
+
+-------------------------------------------------------------------------------
+6.9 え？今なんて？
+-------------------------------------------------------------------------------
+
+Creator:
+Tenkichi
+
+Source:
+https://dova-s.jp/bgm/detail/3827
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License.
+
+
+-------------------------------------------------------------------------------
+6.10 ひみつのさくせん会議
+-------------------------------------------------------------------------------
+
+Creator:
+のる
+
+Source:
+https://dova-s.jp/bgm/detail/20041
+
+Permitted use:
+Commercial and noncommercial game use as background music.
+
+Adult/R18 condition:
+No creator-specific adult/R18 prohibition was identified as of 2026-07-26.
+
+Additional creator condition:
+The creator follows the DOVA-SYNDROME Audio Usage License. Uses in which the
+music itself is the primary content, such as work-music or healing-music
+videos, are prohibited under the standard license.
+
+
+-------------------------------------------------------------------------------
+6.11 CREATOR PROFILE REFERENCES
+-------------------------------------------------------------------------------
+
+ハモおた:
+https://dova-s.jp/creator/detail/416
+
+shimtone:
+https://dova-s.jp/creator/detail/290
+
+天野 七祈:
+https://dova-s.jp/creator/detail/31
+
+VeryGoodMan:
+https://dova-s.jp/creator/detail/35
+
+SEASIDE STUDIO:
+https://dova-s.jp/creator/detail/202
+
+蒲鉾さちこ:
+https://dova-s.jp/creator/detail/418
+
+Tenkichi:
+https://dova-s.jp/creator/detail/153
+
+のる:
+https://dova-s.jp/creator/detail/432
+
+
+===============================================================================
+END OF THIRD-PARTY NOTICES
+===============================================================================

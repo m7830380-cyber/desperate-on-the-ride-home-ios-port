@@ -1,0 +1,443 @@
+[gd_scene format=3 uid="uid://cgi7eoalarqth"]
+
+[ext_resource type="Script" uid="uid://bckae84lof6g7" path="res://scripts/screens/MainTree.gd" id="1"]
+[ext_resource type="Resource" uid="uid://iqbjtt3dfn0w" path="res://data/bgm/MainMenu.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://brc82evpibmf" path="res://data/images/cutscene_common/back_01_far_x2.webp" id="3"]
+[ext_resource type="Texture2D" uid="uid://b80wq7y2gfttm" path="res://data/images/cutscene_common/car_full.webp" id="4"]
+[ext_resource type="Texture2D" uid="uid://ccb1wjgudox4u" path="res://data/images/cutscene_common/dirt.webp" id="5"]
+[ext_resource type="Texture2D" uid="uid://cawie4mwwvaet" path="res://data/images/ui/title_ja.webp" id="6"]
+[ext_resource type="Texture2D" uid="uid://rtix6fjkeqo3" path="res://data/images/ui/title_demo_ja.webp" id="7"]
+[ext_resource type="PackedScene" uid="uid://detxuimfh3kfr" path="res://scenes/CustomButton.tscn" id="8"]
+[ext_resource type="Texture2D" uid="uid://b44fvu6qrdkt8" path="res://data/images/ui/mm_btn_dimmer.webp" id="9"]
+[ext_resource type="AudioStream" uid="uid://bqth2madou0ed" path="res://data/se/system/MainMenuProceedClickSound.mp3" id="10"]
+[ext_resource type="FontFile" uid="uid://dd4qdtr5hfrb5" path="res://data/fonts/07にくまるフォント.otf" id="11"]
+[ext_resource type="PackedScene" uid="uid://b30l8q1flka18" path="res://scenes/ReplayPanel.tscn" id="12"]
+[ext_resource type="Texture2D" uid="uid://bjmtueuqo6lsv" path="res://data/images/ui/mm_btn_dimmer_small.webp" id="13"]
+[ext_resource type="AudioStream" uid="uid://ddjq7thqwegw4" path="res://data/se/system/MainMenuBackClickSound.mp3" id="14"]
+[ext_resource type="FontFile" uid="uid://b3t4n5b3mard6" path="res://data/fonts/Petanko-Regular.otf" id="15"]
+[ext_resource type="PackedScene" uid="uid://brr4xxk3bq2ok" path="res://scenes/OptionPanel.tscn" id="16"]
+[ext_resource type="PackedScene" uid="uid://ylkouttn7x5o" path="res://scenes/CreditPanel.tscn" id="17"]
+[ext_resource type="PackedScene" uid="uid://xe8h5hcenl8t" path="res://scenes/PlayPanel.tscn" id="18"]
+[ext_resource type="PackedScene" uid="uid://cdeu46mjg1rio" path="res://scenes/BonusPanel.tscn" id="19"]
+[ext_resource type="Texture2D" uid="uid://diqyw2amhtk3m" path="res://data/images/ui/mm_lang.webp" id="20"]
+
+[node name="MainTree" type="Control" unique_id=217086215]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+bgm = ExtResource("2")
+
+[node name="Background" type="Control" parent="." unique_id=1828513900]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sky" type="TextureRect" parent="Background" unique_id=346881071]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 540.0
+offset_bottom = -545.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Car" type="TextureRect" parent="Background" unique_id=151038342]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Dirt" type="TextureRect" parent="Background" unique_id=1561757433]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Title" type="TextureRect" parent="." unique_id=856221526]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 17.0
+offset_bottom = 427.0
+grow_horizontal = 2
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TrialVer" type="TextureRect" parent="Title" unique_id=452236982]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonContainer" type="VBoxContainer" parent="." unique_id=399309402]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 182.0
+offset_top = 67.0
+offset_right = -27.0
+offset_bottom = 467.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+alignment = 2
+
+[node name="Start" parent="ButtonContainer" unique_id=841958736 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 2
+texture_hover = ExtResource("9")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../PlayPanel")]
+nodes_to_hide = [NodePath(".."), NodePath("../../Title"), NodePath("../../Language")]
+press_sound = ExtResource("10")
+
+[node name="Label" type="Label" parent="ButtonContainer/Start" unique_id=896858550]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("11")
+theme_override_font_sizes/font_size = 48
+text = "MM_START"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Replay" parent="ButtonContainer" unique_id=373926817 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 2
+texture_hover = ExtResource("9")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../ReplayPanel")]
+nodes_to_hide = [NodePath(".."), NodePath("../../Title"), NodePath("../../Language")]
+press_sound = ExtResource("10")
+
+[node name="Label" type="Label" parent="ButtonContainer/Replay" unique_id=948373374]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("11")
+theme_override_font_sizes/font_size = 48
+text = "MM_REPLAY"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Bonus" parent="ButtonContainer" unique_id=820927815 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 2
+texture_hover = ExtResource("9")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../BonusPanel")]
+nodes_to_hide = [NodePath(".."), NodePath("../../Title"), NodePath("../../Language")]
+press_sound = ExtResource("10")
+
+[node name="Label" type="Label" parent="ButtonContainer/Bonus" unique_id=1892512294]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("11")
+theme_override_font_sizes/font_size = 48
+text = "MM_BONUS"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Settings" parent="ButtonContainer" unique_id=489937113 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 2
+texture_hover = ExtResource("9")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../OptionPanel")]
+nodes_to_hide = [NodePath("../../Title"), NodePath(".."), NodePath("../../Language")]
+press_sound = ExtResource("10")
+
+[node name="Label" type="Label" parent="ButtonContainer/Settings" unique_id=1351760742]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("11")
+theme_override_font_sizes/font_size = 48
+text = "MM_SETTING"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Credits" parent="ButtonContainer" unique_id=2100477966 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 2
+texture_hover = ExtResource("9")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../CreditPanel")]
+nodes_to_hide = [NodePath("../../Title"), NodePath(".."), NodePath("../../Language")]
+press_sound = ExtResource("10")
+
+[node name="Label" type="Label" parent="ButtonContainer/Credits" unique_id=908942047]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("11")
+theme_override_font_sizes/font_size = 48
+text = "MM_CREDITS"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Quit" parent="ButtonContainer" unique_id=138214483 instance=ExtResource("8")]
+layout_mode = 2
+texture_hover = ExtResource("9")
+stretch_mode = 0
+action_type = 1
+press_sound = ExtResource("10")
+transition_type = 5
+transition_duration = 0.8
+
+[node name="Label" type="Label" parent="ButtonContainer/Quit" unique_id=1640168332]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("11")
+theme_override_font_sizes/font_size = 48
+text = "MM_QUIT"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="ReplayPanel" parent="." unique_id=2030857560 instance=ExtResource("12")]
+visible = false
+layout_mode = 1
+
+[node name="Back" parent="ReplayPanel" unique_id=837522625 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 318.0
+offset_top = 904.0
+offset_right = 534.0
+offset_bottom = 954.0
+texture_hover = ExtResource("13")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../ButtonContainer"), NodePath("../../Title"), NodePath("../../Language")]
+nodes_to_hide = [NodePath("..")]
+press_sound = ExtResource("14")
+
+[node name="Label" type="Label" parent="ReplayPanel/Back" unique_id=1497318577]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("15")
+theme_override_font_sizes/font_size = 40
+text = "BT_BACK"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="OptionPanel" parent="." unique_id=577671564 instance=ExtResource("16")]
+visible = false
+layout_mode = 1
+
+[node name="Back" parent="OptionPanel" unique_id=368305039 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 318.0
+offset_top = 904.0
+offset_right = 534.0
+offset_bottom = 954.0
+texture_hover = ExtResource("13")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../ButtonContainer"), NodePath("../../Title"), NodePath("../../Language")]
+nodes_to_hide = [NodePath("..")]
+press_sound = ExtResource("14")
+
+[node name="Label" type="Label" parent="OptionPanel/Back" unique_id=87196071]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("15")
+theme_override_font_sizes/font_size = 40
+text = "BT_BACK"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="CreditPanel" parent="." unique_id=1532709793 instance=ExtResource("17")]
+visible = false
+layout_mode = 1
+
+[node name="Back" parent="CreditPanel" unique_id=1506436784 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 7.0
+offset_top = 904.0
+offset_right = 223.0
+offset_bottom = 954.0
+texture_hover = ExtResource("13")
+stretch_mode = 0
+flip_h = true
+action_type = 2
+nodes_to_show = [NodePath("../../ButtonContainer"), NodePath("../../Title"), NodePath("../../Language")]
+nodes_to_hide = [NodePath("..")]
+press_sound = ExtResource("14")
+
+[node name="Label" type="Label" parent="CreditPanel/Back" unique_id=12558153]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_right = -11.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("15")
+theme_override_font_sizes/font_size = 40
+text = "BT_BACK"
+vertical_alignment = 1
+
+[node name="PlayPanel" parent="." unique_id=534533669 instance=ExtResource("18")]
+visible = false
+layout_mode = 1
+
+[node name="Back" parent="PlayPanel" unique_id=543940639 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 318.0
+offset_top = 904.0
+offset_right = 534.0
+offset_bottom = 954.0
+texture_hover = ExtResource("13")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../ButtonContainer"), NodePath("../../Title"), NodePath("../../Language")]
+nodes_to_hide = [NodePath("..")]
+press_sound = ExtResource("14")
+
+[node name="Label" type="Label" parent="PlayPanel/Back" unique_id=1347994224]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("15")
+theme_override_font_sizes/font_size = 40
+text = "BT_BACK"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="BonusPanel" parent="." unique_id=587842561 instance=ExtResource("19")]
+visible = false
+layout_mode = 1
+
+[node name="Back" parent="BonusPanel" unique_id=1207051802 node_paths=PackedStringArray("nodes_to_show", "nodes_to_hide") instance=ExtResource("8")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 162.0
+offset_top = 904.0
+offset_right = 378.0
+offset_bottom = 954.0
+texture_hover = ExtResource("13")
+stretch_mode = 0
+action_type = 2
+nodes_to_show = [NodePath("../../ButtonContainer"), NodePath("../../Title"), NodePath("../../Language")]
+nodes_to_hide = [NodePath("..")]
+press_sound = ExtResource("14")
+
+[node name="Label" type="Label" parent="BonusPanel/Back" unique_id=150512817]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("15")
+theme_override_font_sizes/font_size = 40
+text = "BT_BACK"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Language" type="TextureButton" parent="." unique_id=893927792]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -64.0
+offset_right = 80.0
+grow_vertical = 0
+texture_normal = ExtResource("20")
+ignore_texture_size = true
+stretch_mode = 5
