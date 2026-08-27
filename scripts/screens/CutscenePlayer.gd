@@ -746,6 +746,13 @@ func _request_texture_load(path: String) -> void :
 	if not ResourceLoader.exists(path):
 		return
 
+	# iOS GL Compatibility: threaded load is unreliable for .webp
+	if OS.get_name() == "iOS":
+		var tex: Texture2D = ResourceLoader.load(path, "", ResourceLoader.CACHE_MODE_IGNORE) as Texture2D
+		if tex != null:
+			_texture_cache[path] = tex
+		return
+
 	var error: = ResourceLoader.load_threaded_request(
 		path, 
 		"", 
