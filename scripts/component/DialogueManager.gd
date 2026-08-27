@@ -454,8 +454,15 @@ func _input(event: InputEvent) -> void :
 	var mouse_event: = event as InputEventMouseButton
 	var is_click: bool = mouse_event != null and mouse_event.pressed and mouse_event.button_index == MOUSE_BUTTON_LEFT
 	var is_key: bool = event.is_action_pressed("ui_accept")
+	
+	# ADD THIS BLOCK
+	var touch_event: InputEventScreenTouch = event as InputEventScreenTouch
+	if touch_event != null and touch_event.pressed:
+		is_click = true
+	
 	if is_click or is_key:
 		_attempt_proceed()
+
 
 func _attempt_proceed() -> void :
 	if not _is_line_pending:
