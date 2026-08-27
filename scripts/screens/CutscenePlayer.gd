@@ -743,17 +743,27 @@ func _get_texture_path_for_event(event: Dictionary) -> String:
 func _request_texture_load(path: String) -> void :
 	if path == "" or _texture_cache.has(path) or _texture_load_requests.has(path):
 		return
-	if not FileAccess.file_exists(path):
+	if not ResourceLoader.exists(path):
 		return
 
-	var img := Image.new()
-	var err := img.load(path)
-	if err == OK:
-		_texture_cache[path] = ImageTexture.create_from_image(img)
+	# iOS GL Compatibility: threaded load is unreliable for .webp
+	if OS.get_name() == "iOS":
+		var tex: Texture2D = ResourceLoader.load(path, "", ResourceLoader.CACHE_MODE_IGNORE) as Texture2D
+		if tex != null:
+			_texture_cache[path] = tex
 		return
 
-	push_warning("CutscenePlayer: Image.load() failed (%d): %s" % [err, path])
-
+	var error: = ResourceLoader.load_threaded_request(
+		path, 
+		"", 
+		false, 
+		ResourceLoader.CACHE_MODE_IGNORE
+	)
+	if error != OK:
+		push_warning("CutscenePlayer: Failed to request threaded texture load (%d): %s" % [error, path])
+		return
+	_texture_load_requests[path] = true
+	_complete_texture_request(path)
 
 func _complete_texture_request(path: String) -> void :
 	while _texture_load_requests.has(path) and is_inside_tree():
@@ -1168,21 +1178,12 @@ func _load_cutscene_texture(path: String) -> Texture2D:
 
 	_texture_keep_paths[path] = true
 	_request_texture_load(path)
-	while _texture_load_requests.has(path) and is_inside_tree():
-		await get_tree().process_frame
-
-	if not is_inside_tree():
-		return null
+	# _request_texture_load is now synchronous
 	if _texture_cache.has(path):
 		return _texture_cache[path] as Texture2D
 
-	push_warning("CutscenePlayer: Threaded texture load failed, falling back to sync load: %s" % path)
-	var fallback_texture: = ResourceLoader.load(path, "", ResourceLoader.CACHE_MODE_IGNORE) as Texture2D
-	if fallback_texture == null:
-		push_warning("CutscenePlayer: Texture load failed: %s" % path)
-	else:
-		_texture_cache[path] = fallback_texture
-	return fallback_texture
+	push_warning("CutscenePlayer: Texture load failed: %s" % path)
+	return null
 
 func _get_cutscene_image_path(file_name: String, censor_base_file: String = "") -> String:
 	var clean_file: = _normalize_cutscene_image_file_name(file_name)
