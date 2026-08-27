@@ -39,9 +39,10 @@ jobs:
         run: |
           "$GODOT_BIN" --version
 
-      - name: Import project resources
+      - name: Import and verify
         run: |
-          "$GODOT_BIN" --headless --import --quit || true
+          "$GODOT_BIN" --headless --import --quit
+          test -f .godot/imported/ending6_*.ctex || exit 1
 
       - name: Export Xcode project (unsigned, project files only)
         run: |
